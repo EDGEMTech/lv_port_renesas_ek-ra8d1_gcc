@@ -144,13 +144,13 @@
             <slot name="PA14" secure="true"/>
             <slot name="PA15" secure="true"/>
         </peripheral>
-        <peripheral name="IIC1" group="IIC" security=""/>
+        <peripheral name="IIC1" group="IIC" security="s"/>
         <peripheral name="ICU_EXT_IRQ">
             <slot name="ICU_EXT_IRQ3" secure="true"/>
         </peripheral>
-        <peripheral name="GPT0" group="GPT" security=""/>
-        <peripheral name="GLCDC" security=""/>
-        <peripheral name="GPT3" group="GPT" security=""/>
+        <peripheral name="GPT0" group="GPT" security="s"/>
+        <peripheral name="GLCDC" security="s"/>
+        <peripheral name="GPT3" group="GPT" security="s"/>
         <peripheral name="ICU">
             <slot name="IRQ0" secure="true"/>
             <slot name="IRQ1" secure="true"/>
