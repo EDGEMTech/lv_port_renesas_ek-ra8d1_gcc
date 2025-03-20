@@ -1,5 +1,5 @@
 FSP Configuration
-  Board "EK-RA8D1"
+  Board "RA8|RA8D1|EK-RA8D1"
   R7FA8D1BHECBD
     part_number: R7FA8D1BHECBD
     rom_size_bytes: 2064384
@@ -13,6 +13,21 @@ FSP Configuration
     
   RA8D1 Family
     Enable inline BSP IRQ functions: Enabled
+    SDRAM: SDRAM Support: Disabled
+    SDRAM: Timings: tRAS (cycles): 6 cycles
+    SDRAM: Timings: tRCD (cycles): 3 cycles
+    SDRAM: Timings: tRP (cycles): 3 cycles
+    SDRAM: Timings: tWR (cycles): 2 cycles
+    SDRAM: Timings: tCL (cycles): 3 cycles
+    SDRAM: Timings: tRFC (cycles): 937
+    SDRAM: Timings: tREFW (cycles): 8 cycles
+    SDRAM: Initialization: Auto-Refresh Interval (ARFI): 10 cycles
+    SDRAM: Initialization: Auto-Refresh Count (ARFC): 8 times
+    SDRAM: Initialization: Precharge Cycle Count (PRC): 3 cycles
+    SDRAM: Address Multiplex Shift: 9-bit shift
+    SDRAM: Endian Mode: Little Endian
+    SDRAM: Continuous Access Mode: Enabled
+    SDRAM: Bus Width: 16-bit
     Security: Exceptions: Exception Response: Non-Maskable Interrupt
     Security: Exceptions: BusFault, HardFault, and NMI Target: Secure State
     Security: System Reset Request Accessibility: Secure State
@@ -89,7 +104,6 @@ FSP Configuration
     MCU Vcc (mV): 3300
     Parameter checking: Enabled
     Assert Failures: Return FSP_ERR_ASSERTION
-    Error Log: No Error Log
     Clock Registers not Reset Values during Startup: Disabled
     Main Oscillator Populated: Populated
     PFS Protect: Enabled
@@ -662,6 +676,7 @@ FSP Configuration
     General: Use 16-bit Ticks: Disabled
     General: Idle Should Yield: Enabled
     General: Use Task Notifications: Enabled
+    General: Task Notification Array Entries: 1
     General: Use Mutexes: Enabled
     General: Use Recursive Mutexes: Disabled
     General: Use Counting Semaphores: Enabled
@@ -741,10 +756,6 @@ FSP Configuration
       Input: Graphics Layer 1: General: Vertical size: 854
       Input: Graphics Layer 1: General: Horizontal position: 0
       Input: Graphics Layer 1: General: Vertical position: 0
-      Input: Graphics Layer 1: Background Color: Alpha: 255
-      Input: Graphics Layer 1: Background Color: Red: 255
-      Input: Graphics Layer 1: Background Color: Green: 255
-      Input: Graphics Layer 1: Background Color: Blue: 255
       Input: Graphics Layer 1: Framebuffer: Framebuffer name: fb_background
       Input: Graphics Layer 1: Framebuffer: Number of framebuffers: 2
       Input: Graphics Layer 1: Framebuffer: Section for framebuffer allocation: .sdram
@@ -759,10 +770,6 @@ FSP Configuration
       Input: Graphics Layer 2: General: Vertical size: 85
       Input: Graphics Layer 2: General: Horizontal position: 0
       Input: Graphics Layer 2: General: Vertical position: 0
-      Input: Graphics Layer 2: Background Color: Alpha: 255
-      Input: Graphics Layer 2: Background Color: Red: 255
-      Input: Graphics Layer 2: Background Color: Green: 255
-      Input: Graphics Layer 2: Background Color: Blue: 255
       Input: Graphics Layer 2: Framebuffer: Framebuffer name: fb_foreground
       Input: Graphics Layer 2: Framebuffer: Number of framebuffers: 1
       Input: Graphics Layer 2: Framebuffer: Section for framebuffer allocation: .sdram
@@ -1024,6 +1031,7 @@ FSP Configuration
       Name: g_i2c_master1
       Channel: 1
       Rate: Fast-mode
+      Custom Rate (bps): 0
       Rise Time (ns): 120
       Fall Time (ns): 120
       Duty Cycle (%): 50
