@@ -84,6 +84,7 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/tes/dave2d/inc}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/src/rm_emwin_port}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;.&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/arm/CMSIS_6/CMSIS/Core/Include}&quot;"/>
 								</option>
 								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.input.1135697509" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.input"/>
 							</tool>
@@ -113,6 +114,7 @@
 									<listOptionValue builtIn="false" value="&quot;.&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/lvgl_dave2d/src/draw/renesas}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/lvgl_dave2d/src/draw}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/arm/CMSIS_6/CMSIS/Core/Include}&quot;"/>
 								</option>
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.other.1630951972" name="Other compiler flags" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.other" useByScannerDiscovery="true" value="" valueType="string"/>
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.verbose.139695428" name="Verbose (-v)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.verbose" useByScannerDiscovery="false" value="false" valueType="boolean"/>
@@ -137,6 +139,7 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_gen}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_cfg/fsp_cfg}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_cfg/aws}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/arm/CMSIS_6/CMSIS/Core/Include}&quot;"/>
 								</option>
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.defs.730042393" name="Defined symbols (-D)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.defs" useByScannerDiscovery="true" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="_RA_CORE=CM85"/>
@@ -194,6 +197,186 @@
 							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.printsize.2108894608" name="GNU Arm Cross Print Size" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.printsize">
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.printsize.format.451633035" name="Size format" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.printsize.format"/>
 							</tool>
+						</toolChain>
+					</folderInfo>
+					<folderInfo id="com.renesas.cdt.managedbuild.gnuarm.config.elf.debug.389797102./ra/tes" name="tes" resourcePath="ra/tes">
+						<toolChain id="com.renesas.cdt.managedbuild.gnuarm.toolchain.elf.debug.2127239685" name="GCC ARM Embedded" superClass="com.renesas.cdt.managedbuild.gnuarm.toolchain.elf.debug" unusedChildren="">
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createflash.1723873181.2052896409" name="Create flash image" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createflash.1723873181"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createlisting.312152667.1620231363" name="Create extended listing" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createlisting.312152667"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.printsize.956468683.2101070873" name="Print size" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.printsize.956468683"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.showCommand.1838860010.1794113193" name="Echo tool command" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.showCommand.1838860010"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.level.22509991.2065215269" name="Optimization Level" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.level.22509991"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.messagelength.1771248801.852102340" name="Message length (-fmessage-length=0)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.messagelength.1771248801"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.signedchar.778660889.661006672" name="'char' is signed (-fsigned-char)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.signedchar.778660889"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.functionsections.1636884394.1543571125" name="Function sections (-ffunction-sections)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.functionsections.1636884394"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.datasections.1674263760.124677406" name="Data sections (-fdata-sections)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.datasections.1674263760"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.level.386061688.387423850" name="Debug level" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.level.386061688"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.format.1259547129.1880886971" name="Debug format" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.format.1259547129"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.unused.1714690071.83036925" name="Warn on various unused elements (-Wunused)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.unused.1714690071"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.uninitialized.1579663512.1177449854" name="Warn on uninitialized variables (-Wuninitialised)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.uninitialized.1579663512"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.allwarn.1444835561.1785435473" name="Enable all common warnings (-Wall)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.allwarn.1444835561"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.extrawarn.1921594655.1705283919" name="Enable extra warnings (-Wextra)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.extrawarn.1921594655"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.missingdeclaration.1384909393.342587356" name="Warn on undeclared global function (-Wmissing-declaration)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.missingdeclaration.1384909393"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.conversion.173335609.250370232" name="Warn on implicit conversions (-Wconversion)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.conversion.173335609"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.pointerarith.914806617.642864947" name="Warn if pointer arithmetic (-Wpointer-arith)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.pointerarith.914806617"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.shadow.251875230.2141489832" name="Warn if shadowed variable (-Wshadow)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.shadow.251875230"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.logicalop.423083346.697962127" name="Warn if suspicious logical ops (-Wlogical-op)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.logicalop.423083346"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.agreggatereturn.1591139104.1290090726" name="Warn if struct is returned (-Wagreggate-return)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.agreggatereturn.1591139104"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.floatequal.1418346862.1235657371" name="Warn if floats are compared as equal (-Wfloat-equal)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.floatequal.1418346862"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.toolchain.name.1866042971.1761313607" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.toolchain.name.1866042971"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.architecture.1914105893.233161730" name="Architecture" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.architecture.1914105893"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.family.1738067686.457619059" name="Arm family (-mcpu)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.family.1738067686"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.instructionset.1462543027.98014938" name="Instruction set" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.instructionset.1462543027"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.prefix.1765519261.575594697" name="Prefix" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.prefix.1765519261"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.c.1364325299.576899609" name="C compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.c.1364325299"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.cpp.1532346705.1809090617" name="C++ compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.cpp.1532346705"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.ar.1581400562.1932243988" name="Archiver" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.ar.1581400562"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.objcopy.1653832621.688180911" name="Hex/Bin converter" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.objcopy.1653832621"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.objdump.1130205979.412047948" name="Listing generator" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.objdump.1130205979"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.size.618475671.433055114" name="Size command" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.size.618475671"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.make.204554051.658193006" name="Build command" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.make.204554051"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.rm.707706154.569921424" name="Remove command" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.rm.707706154"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.target.other.562749492.478538375" name="Other target flags" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.target.other.562749492"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.fpu.abi.1243089513.1811121688" name="Float ABI" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.fpu.abi.1243089513"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.unalignedaccess.2129751055.808746300" name="Unaligned access" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.unalignedaccess.2129751055"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.GNU_ELF" id="ilg.gnuarmeclipse.managedbuild.cross.targetPlatform" isAbstract="false" osList="all" superClass="ilg.gnuarmeclipse.managedbuild.cross.targetPlatform"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.813413127" name="GNU Arm Cross Assembler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.674823792">
+								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.input.251101861" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.input"/>
+							</tool>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.45216523" name="GNU Arm Cross C Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.187586051">
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.other.1945641015" name="Other compiler flags" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.other" value="-w" valueType="string"/>
+								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input.1131632794" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input"/>
+							</tool>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.535698869" name="GNU Arm Cross C++ Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.250246097">
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.other.1201992543" name="Other compiler flags" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.other" value="-w" valueType="string"/>
+								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.input.400550799" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.input"/>
+							</tool>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker.126939798" name="GNU Arm Cross C Linker" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker.1888720119"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.linker.1110518338" name="GNU Arm Cross C++ Linker" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.linker.879011869"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.archiver.663893789" name="GNU Arm Cross Archiver" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.archiver.834589175"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.createflash.1144542099" name="GNU Arm Cross Create Flash Image" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.createflash.1393532391"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.createlisting.1477074240" name="GNU Arm Cross Create Listing" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.createlisting.1331556981"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.printsize.1452102805" name="GNU Arm Cross Print Size" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.printsize.2108894608"/>
+						</toolChain>
+					</folderInfo>
+					<folderInfo id="com.renesas.cdt.managedbuild.gnuarm.config.elf.debug.389797102./ra/aws" name="aws" resourcePath="ra/aws">
+						<toolChain id="com.renesas.cdt.managedbuild.gnuarm.toolchain.elf.debug.1108662517" name="GCC ARM Embedded" superClass="com.renesas.cdt.managedbuild.gnuarm.toolchain.elf.debug" unusedChildren="">
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createflash.1723873181.442346659" name="Create flash image" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createflash.1723873181"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createlisting.312152667.1648887287" name="Create extended listing" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createlisting.312152667"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.printsize.956468683.394365121" name="Print size" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.printsize.956468683"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.showCommand.1838860010.1407121998" name="Echo tool command" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.showCommand.1838860010"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.level.22509991.830129554" name="Optimization Level" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.level.22509991"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.messagelength.1771248801.1187044597" name="Message length (-fmessage-length=0)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.messagelength.1771248801"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.signedchar.778660889.963144452" name="'char' is signed (-fsigned-char)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.signedchar.778660889"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.functionsections.1636884394.583074673" name="Function sections (-ffunction-sections)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.functionsections.1636884394"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.datasections.1674263760.829168242" name="Data sections (-fdata-sections)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.datasections.1674263760"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.level.386061688.821831285" name="Debug level" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.level.386061688"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.format.1259547129.1450625290" name="Debug format" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.format.1259547129"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.unused.1714690071.537298741" name="Warn on various unused elements (-Wunused)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.unused.1714690071"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.uninitialized.1579663512.1401349198" name="Warn on uninitialized variables (-Wuninitialised)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.uninitialized.1579663512"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.allwarn.1444835561.546182554" name="Enable all common warnings (-Wall)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.allwarn.1444835561"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.extrawarn.1921594655.1005871776" name="Enable extra warnings (-Wextra)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.extrawarn.1921594655"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.missingdeclaration.1384909393.1412923562" name="Warn on undeclared global function (-Wmissing-declaration)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.missingdeclaration.1384909393"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.conversion.173335609.780580676" name="Warn on implicit conversions (-Wconversion)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.conversion.173335609"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.pointerarith.914806617.1884455006" name="Warn if pointer arithmetic (-Wpointer-arith)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.pointerarith.914806617"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.shadow.251875230.1600943311" name="Warn if shadowed variable (-Wshadow)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.shadow.251875230"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.logicalop.423083346.1837808136" name="Warn if suspicious logical ops (-Wlogical-op)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.logicalop.423083346"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.agreggatereturn.1591139104.180193331" name="Warn if struct is returned (-Wagreggate-return)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.agreggatereturn.1591139104"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.floatequal.1418346862.2137983252" name="Warn if floats are compared as equal (-Wfloat-equal)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.floatequal.1418346862"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.toolchain.name.1866042971.1935857533" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.toolchain.name.1866042971"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.architecture.1914105893.113108916" name="Architecture" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.architecture.1914105893"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.family.1738067686.555671293" name="Arm family (-mcpu)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.family.1738067686"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.instructionset.1462543027.617789865" name="Instruction set" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.instructionset.1462543027"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.prefix.1765519261.1934355212" name="Prefix" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.prefix.1765519261"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.c.1364325299.1297920120" name="C compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.c.1364325299"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.cpp.1532346705.226607320" name="C++ compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.cpp.1532346705"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.ar.1581400562.947070882" name="Archiver" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.ar.1581400562"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.objcopy.1653832621.758677602" name="Hex/Bin converter" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.objcopy.1653832621"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.objdump.1130205979.113058475" name="Listing generator" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.objdump.1130205979"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.size.618475671.1228362144" name="Size command" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.size.618475671"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.make.204554051.919517970" name="Build command" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.make.204554051"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.rm.707706154.1470763929" name="Remove command" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.rm.707706154"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.target.other.562749492.1643529068" name="Other target flags" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.target.other.562749492"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.fpu.abi.1243089513.282925932" name="Float ABI" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.fpu.abi.1243089513"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.unalignedaccess.2129751055.867038352" name="Unaligned access" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.unalignedaccess.2129751055"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.GNU_ELF" id="ilg.gnuarmeclipse.managedbuild.cross.targetPlatform" isAbstract="false" osList="all" superClass="ilg.gnuarmeclipse.managedbuild.cross.targetPlatform"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.2008791623" name="GNU Arm Cross Assembler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.674823792">
+								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.input.1652340452" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.input"/>
+							</tool>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.780546044" name="GNU Arm Cross C Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.187586051">
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.other.564214156" name="Other compiler flags" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.other" value="-w" valueType="string"/>
+								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input.1103778063" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input"/>
+							</tool>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.1602540094" name="GNU Arm Cross C++ Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.250246097">
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.other.1936521494" name="Other compiler flags" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.other" value="-w" valueType="string"/>
+								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.input.475594220" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.input"/>
+							</tool>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker.188766831" name="GNU Arm Cross C Linker" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker.1888720119"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.linker.7816195" name="GNU Arm Cross C++ Linker" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.linker.879011869"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.archiver.90370065" name="GNU Arm Cross Archiver" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.archiver.834589175"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.createflash.397558064" name="GNU Arm Cross Create Flash Image" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.createflash.1393532391"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.createlisting.719207217" name="GNU Arm Cross Create Listing" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.createlisting.1331556981"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.printsize.982066681" name="GNU Arm Cross Print Size" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.printsize.2108894608"/>
+						</toolChain>
+					</folderInfo>
+					<folderInfo id="com.renesas.cdt.managedbuild.gnuarm.config.elf.debug.389797102./ra/arm" name="arm" resourcePath="ra/arm">
+						<toolChain id="com.renesas.cdt.managedbuild.gnuarm.toolchain.elf.debug.1176739897" name="GCC ARM Embedded" superClass="com.renesas.cdt.managedbuild.gnuarm.toolchain.elf.debug" unusedChildren="">
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createflash.1723873181.632343845" name="Create flash image" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createflash.1723873181"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createlisting.312152667.665571680" name="Create extended listing" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createlisting.312152667"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.printsize.956468683.1328011606" name="Print size" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.printsize.956468683"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.showCommand.1838860010.1255331958" name="Echo tool command" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.showCommand.1838860010"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.level.22509991.1965834283" name="Optimization Level" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.level.22509991"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.messagelength.1771248801.344932701" name="Message length (-fmessage-length=0)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.messagelength.1771248801"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.signedchar.778660889.792224074" name="'char' is signed (-fsigned-char)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.signedchar.778660889"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.functionsections.1636884394.485080884" name="Function sections (-ffunction-sections)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.functionsections.1636884394"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.datasections.1674263760.105157473" name="Data sections (-fdata-sections)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.datasections.1674263760"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.level.386061688.270923729" name="Debug level" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.level.386061688"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.format.1259547129.374993935" name="Debug format" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.format.1259547129"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.unused.1714690071.154991985" name="Warn on various unused elements (-Wunused)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.unused.1714690071"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.uninitialized.1579663512.885194183" name="Warn on uninitialized variables (-Wuninitialised)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.uninitialized.1579663512"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.allwarn.1444835561.566069078" name="Enable all common warnings (-Wall)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.allwarn.1444835561"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.extrawarn.1921594655.686125777" name="Enable extra warnings (-Wextra)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.extrawarn.1921594655"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.missingdeclaration.1384909393.842763436" name="Warn on undeclared global function (-Wmissing-declaration)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.missingdeclaration.1384909393"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.conversion.173335609.782242842" name="Warn on implicit conversions (-Wconversion)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.conversion.173335609"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.pointerarith.914806617.1652357116" name="Warn if pointer arithmetic (-Wpointer-arith)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.pointerarith.914806617"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.shadow.251875230.1000220800" name="Warn if shadowed variable (-Wshadow)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.shadow.251875230"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.logicalop.423083346.1180512166" name="Warn if suspicious logical ops (-Wlogical-op)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.logicalop.423083346"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.agreggatereturn.1591139104.626709182" name="Warn if struct is returned (-Wagreggate-return)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.agreggatereturn.1591139104"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.floatequal.1418346862.1122379703" name="Warn if floats are compared as equal (-Wfloat-equal)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.floatequal.1418346862"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.toolchain.name.1866042971.538264185" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.toolchain.name.1866042971"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.architecture.1914105893.1708671899" name="Architecture" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.architecture.1914105893"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.family.1738067686.2053290306" name="Arm family (-mcpu)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.family.1738067686"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.instructionset.1462543027.1351063151" name="Instruction set" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.instructionset.1462543027"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.prefix.1765519261.71242725" name="Prefix" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.prefix.1765519261"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.c.1364325299.1235753073" name="C compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.c.1364325299"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.cpp.1532346705.1674840237" name="C++ compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.cpp.1532346705"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.ar.1581400562.1048097113" name="Archiver" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.ar.1581400562"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.objcopy.1653832621.1244797850" name="Hex/Bin converter" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.objcopy.1653832621"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.objdump.1130205979.2060189617" name="Listing generator" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.objdump.1130205979"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.size.618475671.697117172" name="Size command" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.size.618475671"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.make.204554051.783659292" name="Build command" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.make.204554051"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.rm.707706154.1223374610" name="Remove command" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.rm.707706154"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.target.other.562749492.263062452" name="Other target flags" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.target.other.562749492"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.fpu.abi.1243089513.1638901268" name="Float ABI" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.fpu.abi.1243089513"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.unalignedaccess.2129751055.672650502" name="Unaligned access" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.unalignedaccess.2129751055"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.GNU_ELF" id="ilg.gnuarmeclipse.managedbuild.cross.targetPlatform" isAbstract="false" osList="all" superClass="ilg.gnuarmeclipse.managedbuild.cross.targetPlatform"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.557498145" name="GNU Arm Cross Assembler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.674823792">
+								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.input.1391369479" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.input"/>
+							</tool>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.1861139560" name="GNU Arm Cross C Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.187586051">
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.other.801434072" name="Other compiler flags" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.other" value="-w" valueType="string"/>
+								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input.531397680" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input"/>
+							</tool>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.328431386" name="GNU Arm Cross C++ Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.250246097">
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.other.462756025" name="Other compiler flags" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.other" value="-w" valueType="string"/>
+								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.input.583892542" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.input"/>
+							</tool>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker.893977797" name="GNU Arm Cross C Linker" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker.1888720119"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.linker.1755010603" name="GNU Arm Cross C++ Linker" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.linker.879011869"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.archiver.1869403053" name="GNU Arm Cross Archiver" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.archiver.834589175"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.createflash.1517784122" name="GNU Arm Cross Create Flash Image" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.createflash.1393532391"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.createlisting.1382057634" name="GNU Arm Cross Create Listing" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.createlisting.1331556981"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.printsize.2112421177" name="GNU Arm Cross Print Size" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.printsize.2108894608"/>
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
@@ -288,6 +471,7 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/tes/dave2d/inc}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/src/rm_emwin_port}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;.&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/arm/CMSIS_6/CMSIS/Core/Include}&quot;"/>
 								</option>
 								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.input.90850064" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.input"/>
 							</tool>
@@ -318,6 +502,7 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/tes/dave2d/inc}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/src/rm_emwin_port}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;.&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/arm/CMSIS_6/CMSIS/Core/Include}&quot;"/>
 								</option>
 								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input.286946245" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input"/>
 							</tool>
@@ -337,6 +522,7 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_gen}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_cfg/fsp_cfg}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_cfg/aws}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/arm/CMSIS_6/CMSIS/Core/Include}&quot;"/>
 								</option>
 								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.defs.619785086" name="Defined symbols (-D)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.defs" useByScannerDiscovery="true" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="_RA_CORE=CM85"/>
@@ -389,6 +575,183 @@
 							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.printsize.2138021255" name="GNU Arm Cross Print Size" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.printsize">
 								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.printsize.format.93794578" name="Size format" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.printsize.format"/>
 							</tool>
+						</toolChain>
+					</folderInfo>
+					<folderInfo id="com.renesas.cdt.managedbuild.gnuarm.config.elf.release.2135090764./ra/tes" name="tes" resourcePath="ra/tes">
+						<toolChain id="com.renesas.cdt.managedbuild.gnuarm.toolchain.elf.release.97267204" name="GCC ARM Embedded" superClass="com.renesas.cdt.managedbuild.gnuarm.toolchain.elf.release" unusedChildren="">
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createflash.1587145013.1930551304" name="Create flash image" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createflash.1587145013"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createlisting.1899367313.1005001969" name="Create extended listing" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createlisting.1899367313"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.printsize.1384552332.1594706707" name="Print size" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.printsize.1384552332"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.showCommand.1528436192.1477205189" name="Echo tool command" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.showCommand.1528436192"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.level.76280245.1535208074" name="Optimization Level" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.level.76280245"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.messagelength.659032229.632718383" name="Message length (-fmessage-length=0)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.messagelength.659032229"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.signedchar.704747695.327486425" name="'char' is signed (-fsigned-char)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.signedchar.704747695"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.functionsections.2006436457.403146835" name="Function sections (-ffunction-sections)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.functionsections.2006436457"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.datasections.445668704.5230644" name="Data sections (-fdata-sections)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.datasections.445668704"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.level.710506766.2088426506" name="Debug level" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.level.710506766"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.format.1893035636.1599588651" name="Debug format" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.format.1893035636"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.unused.260542953.912525711" name="Warn on various unused elements (-Wunused)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.unused.260542953"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.uninitialized.1420853612.1288129450" name="Warn on uninitialized variables (-Wuninitialised)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.uninitialized.1420853612"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.allwarn.166778922.505443987" name="Enable all common warnings (-Wall)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.allwarn.166778922"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.extrawarn.1365117028.483440082" name="Enable extra warnings (-Wextra)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.extrawarn.1365117028"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.missingdeclaration.142449733.1833463294" name="Warn on undeclared global function (-Wmissing-declaration)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.missingdeclaration.142449733"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.conversion.1863052370.655324097" name="Warn on implicit conversions (-Wconversion)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.conversion.1863052370"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.pointerarith.901357615.794259326" name="Warn if pointer arithmetic (-Wpointer-arith)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.pointerarith.901357615"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.shadow.136280640.2125082517" name="Warn if shadowed variable (-Wshadow)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.shadow.136280640"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.logicalop.2083655401.73977893" name="Warn if suspicious logical ops (-Wlogical-op)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.logicalop.2083655401"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.agreggatereturn.2137238010.823392648" name="Warn if struct is returned (-Wagreggate-return)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.agreggatereturn.2137238010"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.floatequal.776306501.1358754089" name="Warn if floats are compared as equal (-Wfloat-equal)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.floatequal.776306501"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.toolchain.name.416408974.1788101567" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.toolchain.name.416408974"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.architecture.1513911596.1449037454" name="Architecture" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.architecture.1513911596"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.family.613683027.164049602" name="Arm family (-mcpu)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.family.613683027"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.instructionset.876258330.1222816214" name="Instruction set" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.instructionset.876258330"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.prefix.1961227235.1987378884" name="Prefix" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.prefix.1961227235"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.c.2126854147.1629059309" name="C compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.c.2126854147"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.cpp.834048608.1604229272" name="C++ compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.cpp.834048608"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.ar.593416257.2021381624" name="Archiver" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.ar.593416257"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.objcopy.1663519543.1267039631" name="Hex/Bin converter" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.objcopy.1663519543"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.objdump.1872890258.1148007820" name="Listing generator" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.objdump.1872890258"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.size.1452662238.101302087" name="Size command" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.size.1452662238"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.make.818480212.1072445351" name="Build command" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.make.818480212"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.rm.987421041.1347830731" name="Remove command" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.rm.987421041"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.target.other.1373010748.99031688" name="Other target flags" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.target.other.1373010748"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.fpu.abi.248542370.654516022" name="Float ABI" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.fpu.abi.248542370"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.GNU_ELF" id="ilg.gnuarmeclipse.managedbuild.cross.targetPlatform" isAbstract="false" osList="all" superClass="ilg.gnuarmeclipse.managedbuild.cross.targetPlatform"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.74607729" name="GNU Arm Cross Assembler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.669408650">
+								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.input.1311472851" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.input"/>
+							</tool>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.1376408090" name="GNU Arm Cross C Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.298136141">
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.other.57925426" name="Other compiler flags" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.other" value="-w" valueType="string"/>
+								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input.60423734" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input"/>
+							</tool>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.106046646" name="GNU Arm Cross C++ Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.1810055757">
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.other.1940743545" name="Other compiler flags" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.other" value="-w" valueType="string"/>
+								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.input.1924118394" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.input"/>
+							</tool>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker.520122651" name="GNU Arm Cross C Linker" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker.1260740671"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.linker.1767225022" name="GNU Arm Cross C++ Linker" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.linker.284661493"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.archiver.1843552282" name="GNU Arm Cross Archiver" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.archiver.1756775430"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.createflash.821388312" name="GNU Arm Cross Create Flash Image" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.createflash.1155153955"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.createlisting.387772927" name="GNU Arm Cross Create Listing" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.createlisting.660343549"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.printsize.442103340" name="GNU Arm Cross Print Size" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.printsize.2138021255"/>
+						</toolChain>
+					</folderInfo>
+					<folderInfo id="com.renesas.cdt.managedbuild.gnuarm.config.elf.release.2135090764./ra/aws" name="aws" resourcePath="ra/aws">
+						<toolChain id="com.renesas.cdt.managedbuild.gnuarm.toolchain.elf.release.436428986" name="GCC ARM Embedded" superClass="com.renesas.cdt.managedbuild.gnuarm.toolchain.elf.release" unusedChildren="">
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createflash.1587145013.2043256791" name="Create flash image" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createflash.1587145013"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createlisting.1899367313.843785767" name="Create extended listing" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createlisting.1899367313"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.printsize.1384552332.758577117" name="Print size" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.printsize.1384552332"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.showCommand.1528436192.759413027" name="Echo tool command" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.showCommand.1528436192"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.level.76280245.812957212" name="Optimization Level" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.level.76280245"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.messagelength.659032229.1314141765" name="Message length (-fmessage-length=0)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.messagelength.659032229"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.signedchar.704747695.701561006" name="'char' is signed (-fsigned-char)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.signedchar.704747695"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.functionsections.2006436457.1594538038" name="Function sections (-ffunction-sections)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.functionsections.2006436457"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.datasections.445668704.239337816" name="Data sections (-fdata-sections)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.datasections.445668704"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.level.710506766.869033306" name="Debug level" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.level.710506766"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.format.1893035636.1967131284" name="Debug format" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.format.1893035636"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.unused.260542953.332418207" name="Warn on various unused elements (-Wunused)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.unused.260542953"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.uninitialized.1420853612.739617702" name="Warn on uninitialized variables (-Wuninitialised)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.uninitialized.1420853612"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.allwarn.166778922.1555704031" name="Enable all common warnings (-Wall)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.allwarn.166778922"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.extrawarn.1365117028.307270897" name="Enable extra warnings (-Wextra)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.extrawarn.1365117028"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.missingdeclaration.142449733.1277657277" name="Warn on undeclared global function (-Wmissing-declaration)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.missingdeclaration.142449733"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.conversion.1863052370.80622395" name="Warn on implicit conversions (-Wconversion)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.conversion.1863052370"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.pointerarith.901357615.363626176" name="Warn if pointer arithmetic (-Wpointer-arith)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.pointerarith.901357615"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.shadow.136280640.1578024674" name="Warn if shadowed variable (-Wshadow)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.shadow.136280640"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.logicalop.2083655401.535230015" name="Warn if suspicious logical ops (-Wlogical-op)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.logicalop.2083655401"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.agreggatereturn.2137238010.541791237" name="Warn if struct is returned (-Wagreggate-return)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.agreggatereturn.2137238010"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.floatequal.776306501.1714272136" name="Warn if floats are compared as equal (-Wfloat-equal)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.floatequal.776306501"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.toolchain.name.416408974.1381005285" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.toolchain.name.416408974"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.architecture.1513911596.1832704963" name="Architecture" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.architecture.1513911596"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.family.613683027.1465065563" name="Arm family (-mcpu)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.family.613683027"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.instructionset.876258330.171146556" name="Instruction set" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.instructionset.876258330"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.prefix.1961227235.1261830419" name="Prefix" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.prefix.1961227235"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.c.2126854147.245835862" name="C compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.c.2126854147"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.cpp.834048608.298673645" name="C++ compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.cpp.834048608"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.ar.593416257.632017640" name="Archiver" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.ar.593416257"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.objcopy.1663519543.484065458" name="Hex/Bin converter" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.objcopy.1663519543"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.objdump.1872890258.902204003" name="Listing generator" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.objdump.1872890258"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.size.1452662238.471061515" name="Size command" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.size.1452662238"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.make.818480212.1104120234" name="Build command" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.make.818480212"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.rm.987421041.996927136" name="Remove command" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.rm.987421041"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.target.other.1373010748.693872583" name="Other target flags" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.target.other.1373010748"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.fpu.abi.248542370.515637585" name="Float ABI" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.fpu.abi.248542370"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.GNU_ELF" id="ilg.gnuarmeclipse.managedbuild.cross.targetPlatform" isAbstract="false" osList="all" superClass="ilg.gnuarmeclipse.managedbuild.cross.targetPlatform"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.1354643856" name="GNU Arm Cross Assembler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.669408650">
+								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.input.1751073715" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.input"/>
+							</tool>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.898573114" name="GNU Arm Cross C Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.298136141">
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.other.1781477967" name="Other compiler flags" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.other" value="-w" valueType="string"/>
+								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input.666969852" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input"/>
+							</tool>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.1531286500" name="GNU Arm Cross C++ Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.1810055757">
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.other.1593303169" name="Other compiler flags" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.other" value="-w" valueType="string"/>
+								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.input.577343190" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.input"/>
+							</tool>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker.654245989" name="GNU Arm Cross C Linker" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker.1260740671"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.linker.764323859" name="GNU Arm Cross C++ Linker" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.linker.284661493"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.archiver.1550104619" name="GNU Arm Cross Archiver" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.archiver.1756775430"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.createflash.1047498813" name="GNU Arm Cross Create Flash Image" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.createflash.1155153955"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.createlisting.1881022027" name="GNU Arm Cross Create Listing" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.createlisting.660343549"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.printsize.1575877824" name="GNU Arm Cross Print Size" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.printsize.2138021255"/>
+						</toolChain>
+					</folderInfo>
+					<folderInfo id="com.renesas.cdt.managedbuild.gnuarm.config.elf.release.2135090764./ra/arm" name="arm" resourcePath="ra/arm">
+						<toolChain id="com.renesas.cdt.managedbuild.gnuarm.toolchain.elf.release.1984195661" name="GCC ARM Embedded" superClass="com.renesas.cdt.managedbuild.gnuarm.toolchain.elf.release" unusedChildren="">
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createflash.1587145013.1125070966" name="Create flash image" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createflash.1587145013"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createlisting.1899367313.701124298" name="Create extended listing" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.createlisting.1899367313"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.printsize.1384552332.980407145" name="Print size" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.printsize.1384552332"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.showCommand.1528436192.230369594" name="Echo tool command" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.addtools.showCommand.1528436192"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.level.76280245.862952004" name="Optimization Level" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.level.76280245"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.messagelength.659032229.1547048011" name="Message length (-fmessage-length=0)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.messagelength.659032229"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.signedchar.704747695.197655650" name="'char' is signed (-fsigned-char)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.signedchar.704747695"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.functionsections.2006436457.1948977861" name="Function sections (-ffunction-sections)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.functionsections.2006436457"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.datasections.445668704.335192944" name="Data sections (-fdata-sections)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.optimization.datasections.445668704"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.level.710506766.1204840254" name="Debug level" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.level.710506766"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.format.1893035636.1293858387" name="Debug format" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.debugging.format.1893035636"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.unused.260542953.1635819056" name="Warn on various unused elements (-Wunused)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.unused.260542953"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.uninitialized.1420853612.463709241" name="Warn on uninitialized variables (-Wuninitialised)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.uninitialized.1420853612"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.allwarn.166778922.2132322360" name="Enable all common warnings (-Wall)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.allwarn.166778922"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.extrawarn.1365117028.2018940284" name="Enable extra warnings (-Wextra)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.extrawarn.1365117028"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.missingdeclaration.142449733.405016236" name="Warn on undeclared global function (-Wmissing-declaration)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.missingdeclaration.142449733"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.conversion.1863052370.239231896" name="Warn on implicit conversions (-Wconversion)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.conversion.1863052370"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.pointerarith.901357615.277116144" name="Warn if pointer arithmetic (-Wpointer-arith)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.pointerarith.901357615"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.shadow.136280640.1239139930" name="Warn if shadowed variable (-Wshadow)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.shadow.136280640"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.logicalop.2083655401.31423087" name="Warn if suspicious logical ops (-Wlogical-op)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.logicalop.2083655401"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.agreggatereturn.2137238010.3886254" name="Warn if struct is returned (-Wagreggate-return)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.agreggatereturn.2137238010"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.floatequal.776306501.968576346" name="Warn if floats are compared as equal (-Wfloat-equal)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.warnings.floatequal.776306501"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.toolchain.name.416408974.1786957343" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.toolchain.name.416408974"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.architecture.1513911596.516156374" name="Architecture" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.architecture.1513911596"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.family.613683027.2081240572" name="Arm family (-mcpu)" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.family.613683027"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.instructionset.876258330.473888244" name="Instruction set" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.instructionset.876258330"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.prefix.1961227235.2039622856" name="Prefix" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.prefix.1961227235"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.c.2126854147.1022356833" name="C compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.c.2126854147"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.cpp.834048608.3811651" name="C++ compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.cpp.834048608"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.ar.593416257.730278751" name="Archiver" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.ar.593416257"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.objcopy.1663519543.1141982108" name="Hex/Bin converter" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.objcopy.1663519543"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.objdump.1872890258.1119693239" name="Listing generator" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.objdump.1872890258"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.size.1452662238.1500795795" name="Size command" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.size.1452662238"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.make.818480212.1844214576" name="Build command" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.make.818480212"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.command.rm.987421041.930297338" name="Remove command" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.command.rm.987421041"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.target.other.1373010748.205703703" name="Other target flags" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.target.other.1373010748"/>
+							<option id="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.fpu.abi.248542370.1094725555" name="Float ABI" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.arm.target.fpu.abi.248542370"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.GNU_ELF" id="ilg.gnuarmeclipse.managedbuild.cross.targetPlatform" isAbstract="false" osList="all" superClass="ilg.gnuarmeclipse.managedbuild.cross.targetPlatform"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.1020832248" name="GNU Arm Cross Assembler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.669408650">
+								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.input.758407590" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.assembler.input"/>
+							</tool>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.215279933" name="GNU Arm Cross C Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.298136141">
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.other.242983074" name="Other compiler flags" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.c.compiler.other" value="-w" valueType="string"/>
+								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input.788915239" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.compiler.input"/>
+							</tool>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.592184835" name="GNU Arm Cross C++ Compiler" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.1810055757">
+								<option id="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.other.366380417" name="Other compiler flags" superClass="ilg.gnuarmeclipse.managedbuild.cross.option.cpp.compiler.other" value="-w" valueType="string"/>
+								<inputType id="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.input.1806587114" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.compiler.input"/>
+							</tool>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker.1677620771" name="GNU Arm Cross C Linker" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.c.linker.1260740671"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.linker.568700641" name="GNU Arm Cross C++ Linker" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.cpp.linker.284661493"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.archiver.32010005" name="GNU Arm Cross Archiver" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.archiver.1756775430"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.createflash.2587322" name="GNU Arm Cross Create Flash Image" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.createflash.1155153955"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.createlisting.718478679" name="GNU Arm Cross Create Listing" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.createlisting.660343549"/>
+							<tool id="ilg.gnuarmeclipse.managedbuild.cross.tool.printsize.1555383381" name="GNU Arm Cross Print Size" superClass="ilg.gnuarmeclipse.managedbuild.cross.tool.printsize.2138021255"/>
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
@@ -1515,367 +1878,25 @@
 				<externalSettings/>
 				<extensions>
 					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
-					<extension id="com.arm.eclipse.builder.armcc.error" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
 				</extensions>
 			</storageModule>
 			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-				<configuration artifactExtension="axf" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="clean" description="" id="com.arm.eclipse.build.config.v6.exe.debug.base.var.arm_compiler_6-6.21.208855860" name="Debug" parent="com.arm.eclipse.build.config.v6.exe.debug.base.var.arm_compiler_6-6.21">
+				<configuration artifactExtension="axf" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="clean" description="" id="com.arm.eclipse.build.config.v6.exe.debug.base.var.arm_compiler_6-6.21.208855860" name="Debug">
 					<folderInfo id="com.arm.eclipse.build.config.v6.exe.debug.base.var.arm_compiler_6-6.21.208855860." name="/" resourcePath="">
-						<toolChain id="com.arm.toolchain.v6.base.var.arm_compiler_6-6.22.1416272793" name="ARM Compiler 6.22" superClass="com.arm.toolchain.v6.base.var.arm_compiler_6-6.22">
+						<toolChain id="com.arm.toolchain.v6.base.var.arm_compiler_6-6.22.1416272793" name="ARM Compiler 6.22">
 							<targetPlatform id="com.arm.toolchain.v6.base.var.arm_compiler_6-6.22.1416272793.1033189157" name=""/>
 							<builder buildPath="${workspace_loc:/lv_ek_ra8d1}/Debug" id="com.arm.toolchain.v6.builder.351423869" keepEnvironmentInBuildfile="false" name="Gnu Make Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="com.arm.toolchain.v6.builder"/>
-							<tool id="com.arm.tool.c.compiler.v6.base.var.arm_compiler_6-6.22.967116772" name="ARM C Compiler 6.22" superClass="com.arm.tool.c.compiler.v6.base.var.arm_compiler_6-6.22">
-								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.arm.tool.c.compiler.v6.base.option.incpath.512509794" name="Include path (-I)" superClass="com.arm.tool.c.compiler.v6.base.option.incpath" useByScannerDiscovery="false" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/Arm-2D/Helper/Include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/arm/CMSIS_5/CMSIS/DSP/Include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/Arm-2D/Library/Include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;.&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/inc/api}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/inc/instances}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/src/rm_freertos_port}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/aws/FreeRTOS/FreeRTOS/Source/include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/arm/CMSIS_5/CMSIS/Core/Include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_gen}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_cfg/fsp_cfg/bsp}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_cfg/fsp_cfg}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_cfg/aws}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/tes/dave2d/inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/lvgl}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/lvgl/tests}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/arm/CMSIS_5/CMSIS/DSP/PrivateInclude}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/arm/CMSIS_5/CMSIS/DSP/Include}&quot;"/>
-								</option>
-								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.arm.tool.c.compiler.v6.base.option.defmac.1472612722" name="Define macro (-D)" superClass="com.arm.tool.c.compiler.v6.base.option.defmac" useByScannerDiscovery="false" valueType="definedSymbols">
-									<listOptionValue builtIn="false" value="_RENESAS_RA_"/>
-									<listOptionValue builtIn="false" value="_RA_CORE=CM85"/>
-									<listOptionValue builtIn="false" value="_RA_ORDINAL=1"/>
-								</option>
-								<option defaultValue="com.arm.tool.c.compiler.v6.base.option.optlevel.min" id="com.arm.tool.c.compiler.v6.base.option.optlevel.1224832014" name="Optimization level" superClass="com.arm.tool.c.compiler.v6.base.option.optlevel" useByScannerDiscovery="false" value="com.arm.tool.c.compiler.v6.base.option.optlevel.max" valueType="enumerated"/>
-								<option defaultValue="com.arm.tool.c.compiler.v6.base.options.debug.level.std" id="com.arm.tool.c.compiler.v6.base.options.debug.level.1850087703" name="Debug Level" superClass="com.arm.tool.c.compiler.v6.base.options.debug.level" useByScannerDiscovery="false" valueType="enumerated"/>
-								<option id="com.arm.tool.c.compiler.v6.base.option.target.1033856619" name="Target (--target)" superClass="com.arm.tool.c.compiler.v6.base.option.target" useByScannerDiscovery="true" value="arm-arm-none-eabi" valueType="string"/>
-								<option id="com.arm.tool.c.compiler.v6.base.option.cpu.454254899" name="CPU (-mcpu)" superClass="com.arm.tool.c.compiler.v6.base.option.cpu" useByScannerDiscovery="true" value="cortex-m85" valueType="string"/>
-								<option id="com.arm.tool.c.compiler.v6.base.option.warnall.1574235912" name="All Warnings (-Wall)" superClass="com.arm.tool.c.compiler.v6.base.option.warnall" useByScannerDiscovery="false" value="false" valueType="boolean"/>
-								<option id="com.arm.tool.c.compiler.v6.base.option.flags.889435136" name="Other flags" superClass="com.arm.tool.c.compiler.v6.base.option.flags" useByScannerDiscovery="true" value="-Omax -flto -Wno-int-conversion -Wno-deprecated-non-prototype -Wno-implicit-function-declaration -Wno-unused-but-set-variable -Wfloat-equal -Waggregate-return -Wshadow -Wpointer-arith -Wconversion -Wmissing-declarations -Wuninitialized -Wunused -Wno-license-management -Wextra -Wno-implicit-int-conversion -Wno-sign-conversion -mfloat-abi=hard -I&quot;/home/kisvegabor/projects/lvgl/e2_studio-workspace/lv_port_renesas_ek-ra8d1/ra/arm/CMSIS_5/CMSIS/DSP/Include/&quot; -I&quot;/home/kisvegabor/projects/lvgl/e2_studio-workspace/lv_port_renesas_ek-ra8d1/ra/arm/CMSIS_5/CMSIS/DSP/PrivateInclude/&quot;" valueType="string"/>
-								<option id="com.arm.tool.c.compiler.v6.base.option.suppresswarn.1154356467" name="Suppress all warnings (-w)" superClass="com.arm.tool.c.compiler.v6.base.option.suppresswarn" useByScannerDiscovery="false" value="false" valueType="boolean"/>
-								<option id="com.arm.tool.c.compiler.v6.base.option.vector.1543445326" name="Vectorization (-fvectorize)" superClass="com.arm.tool.c.compiler.v6.base.option.vector" useByScannerDiscovery="false" value="true" valueType="boolean"/>
-								<inputType id="com.arm.tool.c.compiler.v6.base.input.424191790" superClass="com.arm.tool.c.compiler.v6.base.input"/>
-								<inputType id="com.arm.tool.cpp.compiler.v6.base.input.1687393720" superClass="com.arm.tool.cpp.compiler.v6.base.input"/>
-							</tool>
-							<tool id="com.arm.tool.cpp.compiler.v6.base.var.arm_compiler_6-6.22.819726544" name="ARM C++ Compiler 6.22" superClass="com.arm.tool.cpp.compiler.v6.base.var.arm_compiler_6-6.22">
-								<option defaultValue="com.arm.tool.c.compiler.v6.base.option.optlevel.min" id="com.arm.tool.c.compiler.v6.base.option.optlevel.1030532797" name="Optimization level" superClass="com.arm.tool.c.compiler.v6.base.option.optlevel" valueType="enumerated"/>
-								<option defaultValue="com.arm.tool.c.compiler.v6.base.options.debug.level.std" id="com.arm.tool.c.compiler.v6.base.options.debug.level.1398471238" name="Debug Level" superClass="com.arm.tool.c.compiler.v6.base.options.debug.level" valueType="enumerated"/>
-								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.arm.tool.c.compiler.v6.base.option.incpath.690164618" name="Include path (-I)" superClass="com.arm.tool.c.compiler.v6.base.option.incpath" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;.&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/inc/api}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/inc/instances}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/src/rm_freertos_port}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/aws/FreeRTOS/FreeRTOS/Source/include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/arm/CMSIS_5/CMSIS/Core/Include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/tes/dave2d/inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_cfg/fsp_cfg/bsp}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_gen}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_cfg/fsp_cfg}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_cfg/aws}&quot;"/>
-								</option>
-								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.arm.tool.c.compiler.v6.base.option.defmac.1945143138" name="Define macro (-D)" superClass="com.arm.tool.c.compiler.v6.base.option.defmac" valueType="definedSymbols">
-									<listOptionValue builtIn="false" value="_RA_CORE=CM85"/>
-									<listOptionValue builtIn="false" value="_RA_ORDINAL=1"/>
-								</option>
-								<inputType id="com.arm.tool.c.compiler.v6.base.input.1270816628" superClass="com.arm.tool.c.compiler.v6.base.input"/>
-								<inputType id="com.arm.tool.cpp.compiler.v6.base.input.1013153993" superClass="com.arm.tool.cpp.compiler.v6.base.input"/>
-							</tool>
-							<tool command="armclang" id="com.arm.tool.assembler.v6.base.var.arm_compiler_6-6.22.1549853453" name="ARM Assembler 6.22" superClass="com.arm.tool.assembler.v6.base.var.arm_compiler_6-6.22">
-								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.arm.tool.assembler.v6.base.option.incpath.241447310" name="Include path (-I)" superClass="com.arm.tool.assembler.v6.base.option.incpath" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;.&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/inc/api}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/inc/instances}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/src/rm_freertos_port}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/aws/FreeRTOS/FreeRTOS/Source/include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/arm/CMSIS_5/CMSIS/Core/Include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_gen}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_cfg/fsp_cfg/bsp}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_cfg/fsp_cfg}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_cfg/aws}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/tes/dave2d/inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/arm/CMSIS_5/CMSIS/DSP/PrivateInclude}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/arm/CMSIS_5/CMSIS/DSP/Include}&quot;"/>
-								</option>
-								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.arm.tool.assembler.v6.base.option.defmac.2046101491" name="Define macro (-D)" superClass="com.arm.tool.assembler.v6.base.option.defmac" valueType="definedSymbols">
-									<listOptionValue builtIn="false" value="_RENESAS_RA_"/>
-									<listOptionValue builtIn="false" value="_RA_CORE=CM85"/>
-									<listOptionValue builtIn="false" value="_RA_ORDINAL=1"/>
-								</option>
-								<option defaultValue="com.arm.tool.assembler.v6.base.options.debug.level.std" id="com.arm.tool.assembler.v6.base.options.debug.level.175590624" name="Debug Level" superClass="com.arm.tool.assembler.v6.base.options.debug.level" valueType="enumerated"/>
-								<option id="com.arm.tool.assembler.v6.base.option.target.196117714" name="Target (--target)" superClass="com.arm.tool.assembler.v6.base.option.target" value="arm-arm-none-eabi" valueType="string"/>
-								<option id="com.arm.tool.assembler.v6.base.option.cpu.567161650" name="CPU (-mcpu)" superClass="com.arm.tool.assembler.v6.base.option.cpu" value="Cortex-M85" valueType="string"/>
-								<option id="com.arm.tool.assembler.v6.base.option.warnall.2033749599" name="All Warnings (-Wall)" superClass="com.arm.tool.assembler.v6.base.option.warnall" value="true" valueType="boolean"/>
-								<option id="com.arm.tool.assembler.v6.base.option.flags.2033145874" name="Other flags" superClass="com.arm.tool.assembler.v6.base.option.flags" value="-x assembler-with-cpp" valueType="string"/>
-								<inputType id="com.arm.tool.assembler.v6.base.input.1700053537" superClass="com.arm.tool.assembler.v6.base.input"/>
-							</tool>
-							<tool id="com.arm.tool.c.linker.v6.base.var.arm_compiler_6-6.22.1123239540" name="ARM Linker 6.22" superClass="com.arm.tool.c.linker.v6.base.var.arm_compiler_6-6.22">
-								<option id="com.arm.tool.c.linker.option.cpu.1779713021" name="Target CPU (--cpu)" superClass="com.arm.tool.c.linker.option.cpu" value="Cortex-M85" valueType="string"/>
-								<option id="com.arm.tool.c.linker.option.entry.931430101" name="Image entry point (--entry)" superClass="com.arm.tool.c.linker.option.entry" value="Reset_Handler" valueType="string"/>
-								<option id="com.arm.tool.c.linker.option.scatter.46710010" name="Scatter file (--scatter)" superClass="com.arm.tool.c.linker.option.scatter" value="${workspace_loc:/${ProjName}}/script/fsp.scat" valueType="string"/>
-								<option id="com.arm.tool.c.linker.option.redirectoutput.666755223" name="Redirect diagnostics output to file (--list)" superClass="com.arm.tool.c.linker.option.redirectoutput" value="${BuildArtifactFileBaseName}.log" valueType="string"/>
-								<option id="com.arm.tool.c.linker.option.imagemap.1119337360" name="Generate image map (--map)" superClass="com.arm.tool.c.linker.option.imagemap" value="true" valueType="boolean"/>
-								<option id="com.arm.tool.linker.v6.option.suppress.1668483380" name="Suppress (--diag_suppress)" superClass="com.arm.tool.linker.v6.option.suppress" value="6319,6314" valueType="string"/>
-								<option id="com.arm.tool.c.linker.option.flags.1075783156" name="Other flags" superClass="com.arm.tool.c.linker.option.flags" value="--lto --library_type=standardlib --no_startup --via=&quot;${workspace_loc:/${ProjName}/script}/ac6/fsp_keep.via&quot;" valueType="string"/>
-							</tool>
-							<tool id="com.arm.tool.librarian.v6.base.var.arm_compiler_6-6.22.868578581" name="ARM Librarian 6.22" superClass="com.arm.tool.librarian.v6.base.var.arm_compiler_6-6.22"/>
 						</toolChain>
 					</folderInfo>
 					<folderInfo id="com.arm.eclipse.build.config.v6.exe.debug.base.var.arm_compiler_6-6.21.208855860./ra/tes" name="tes" resourcePath="ra/tes">
-						<toolChain id="com.arm.toolchain.v6.base.var.arm_compiler_6-6.22.143118599" name="ARM Compiler 6.22" superClass="com.arm.toolchain.v6.base.var.arm_compiler_6-6.22">
-							<tool id="com.arm.tool.c.compiler.v6.base.var.arm_compiler_6-6.22.1560421523" name="ARM C Compiler 6.22" superClass="com.arm.tool.c.compiler.v6.base.var.arm_compiler_6-6.22">
-								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.arm.tool.c.compiler.v6.base.option.incpath.438359964" name="Include path (-I)" superClass="com.arm.tool.c.compiler.v6.base.option.incpath" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;.&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/inc/api}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/inc/instances}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/src/rm_freertos_port}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/aws/FreeRTOS/FreeRTOS/Source/include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/arm/CMSIS_5/CMSIS/Core/Include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_gen}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_cfg/fsp_cfg/bsp}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_cfg/fsp_cfg}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_cfg/aws}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/tes/dave2d/inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/lvgl}&quot;"/>
-								</option>
-								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.arm.tool.c.compiler.v6.base.option.defmac.416452589" name="Define macro (-D)" superClass="com.arm.tool.c.compiler.v6.base.option.defmac" valueType="definedSymbols">
-									<listOptionValue builtIn="false" value="_RENESAS_RA_"/>
-									<listOptionValue builtIn="false" value="_RA_CORE=CM85"/>
-									<listOptionValue builtIn="false" value="_RA_ORDINAL=1"/>
-								</option>
-								<option defaultValue="com.arm.tool.c.compiler.v6.base.option.optlevel.min" id="com.arm.tool.c.compiler.v6.base.option.optlevel.1841665749" name="Optimization level" superClass="com.arm.tool.c.compiler.v6.base.option.optlevel" value="com.arm.tool.c.compiler.v6.base.option.optlevel.max" valueType="enumerated"/>
-								<option defaultValue="com.arm.tool.c.compiler.v6.base.options.debug.level.std" id="com.arm.tool.c.compiler.v6.base.options.debug.level.2135245702" name="Debug Level" superClass="com.arm.tool.c.compiler.v6.base.options.debug.level" valueType="enumerated"/>
-								<option id="com.arm.tool.c.compiler.v6.base.option.target.21218427" name="Target (--target)" superClass="com.arm.tool.c.compiler.v6.base.option.target" value="arm-arm-none-eabi" valueType="string"/>
-								<option id="com.arm.tool.c.compiler.v6.base.option.cpu.1923685154" name="CPU (-mcpu)" superClass="com.arm.tool.c.compiler.v6.base.option.cpu" value="cortex-m85" valueType="string"/>
-								<option id="com.arm.tool.c.compiler.v6.base.option.warnall.1074155949" name="All Warnings (-Wall)" superClass="com.arm.tool.c.compiler.v6.base.option.warnall" value="false" valueType="boolean"/>
-								<option id="com.arm.tool.c.compiler.v6.base.option.flags.1571040823" name="Other flags" superClass="com.arm.tool.c.compiler.v6.base.option.flags" value="-Omax -flto -Wno-int-conversion -Wno-deprecated-non-prototype -Wno-implicit-function-declaration -Wno-unused-but-set-variable -Wfloat-equal -Waggregate-return -Wshadow -Wpointer-arith -Wconversion -Wmissing-declarations -Wuninitialized -Wunused -Wno-license-management -Wextra -Wno-implicit-int-conversion -Wno-sign-conversion -mfloat-abi=hard -I&quot;/home/kisvegabor/projects/lvgl/e2_studio-workspace/lv_port_renesas_ek-ra8d1/ra/arm/CMSIS_5/CMSIS/DSP/Include/&quot; -I&quot;/home/kisvegabor/projects/lvgl/e2_studio-workspace/lv_port_renesas_ek-ra8d1/ra/arm/CMSIS_5/CMSIS/DSP/PrivateInclude/&quot;" valueType="string"/>
-								<option id="com.arm.tool.c.compiler.v6.base.option.suppresswarn.1670123652" name="Suppress all warnings (-w)" superClass="com.arm.tool.c.compiler.v6.base.option.suppresswarn" value="true" valueType="boolean"/>
-								<option id="com.arm.tool.c.compiler.v6.base.option.vector.58265429" name="Vectorization (-fvectorize)" superClass="com.arm.tool.c.compiler.v6.base.option.vector" value="true" valueType="boolean"/>
-								<inputType id="com.arm.tool.c.compiler.v6.base.input.175025912" superClass="com.arm.tool.c.compiler.v6.base.input"/>
-								<inputType id="com.arm.tool.cpp.compiler.v6.base.input.1598973171" superClass="com.arm.tool.cpp.compiler.v6.base.input"/>
-							</tool>
-							<tool id="com.arm.tool.cpp.compiler.v6.base.var.arm_compiler_6-6.22.1669063223" name="ARM C++ Compiler 6.22" superClass="com.arm.tool.cpp.compiler.v6.base.var.arm_compiler_6-6.22">
-								<option defaultValue="com.arm.tool.c.compiler.v6.base.option.optlevel.min" id="com.arm.tool.c.compiler.v6.base.option.optlevel.1404491859" name="Optimization level" superClass="com.arm.tool.c.compiler.v6.base.option.optlevel" valueType="enumerated"/>
-								<option defaultValue="com.arm.tool.c.compiler.v6.base.options.debug.level.std" id="com.arm.tool.c.compiler.v6.base.options.debug.level.1820850029" name="Debug Level" superClass="com.arm.tool.c.compiler.v6.base.options.debug.level" valueType="enumerated"/>
-								<option id="com.arm.tool.c.compiler.v6.base.option.suppresswarn.450624025" name="Suppress all warnings (-w)" superClass="com.arm.tool.c.compiler.v6.base.option.suppresswarn" value="true" valueType="boolean"/>
-								<inputType id="com.arm.tool.c.compiler.v6.base.input.632065411" superClass="com.arm.tool.c.compiler.v6.base.input"/>
-								<inputType id="com.arm.tool.cpp.compiler.v6.base.input.1144598135" superClass="com.arm.tool.cpp.compiler.v6.base.input"/>
-							</tool>
-							<tool id="com.arm.tool.assembler.v6.base.var.arm_compiler_6-6.22.1718753541" name="ARM Assembler 6.22" superClass="com.arm.tool.assembler.v6.base.var.arm_compiler_6-6.22">
-								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.arm.tool.assembler.v6.base.option.incpath.662360085" name="Include path (-I)" superClass="com.arm.tool.assembler.v6.base.option.incpath" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;.&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/inc/api}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/inc/instances}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/src/rm_freertos_port}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/aws/FreeRTOS/FreeRTOS/Source/include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/arm/CMSIS_5/CMSIS/Core/Include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_gen}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_cfg/fsp_cfg/bsp}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_cfg/fsp_cfg}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_cfg/aws}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/tes/dave2d/inc}&quot;"/>
-								</option>
-								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.arm.tool.assembler.v6.base.option.defmac.1047377316" name="Define macro (-D)" superClass="com.arm.tool.assembler.v6.base.option.defmac" valueType="definedSymbols">
-									<listOptionValue builtIn="false" value="_RENESAS_RA_"/>
-									<listOptionValue builtIn="false" value="_RA_CORE=CM85"/>
-									<listOptionValue builtIn="false" value="_RA_ORDINAL=1"/>
-								</option>
-								<option defaultValue="com.arm.tool.assembler.v6.base.options.debug.level.std" id="com.arm.tool.assembler.v6.base.options.debug.level.1882190771" name="Debug Level" superClass="com.arm.tool.assembler.v6.base.options.debug.level" valueType="enumerated"/>
-								<option id="com.arm.tool.assembler.v6.base.option.target.837479114" name="Target (--target)" superClass="com.arm.tool.assembler.v6.base.option.target" value="arm-arm-none-eabi" valueType="string"/>
-								<option id="com.arm.tool.assembler.v6.base.option.cpu.1188147185" name="CPU (-mcpu)" superClass="com.arm.tool.assembler.v6.base.option.cpu" value="Cortex-M85" valueType="string"/>
-								<option id="com.arm.tool.assembler.v6.base.option.warnall.478480512" name="All Warnings (-Wall)" superClass="com.arm.tool.assembler.v6.base.option.warnall" value="true" valueType="boolean"/>
-								<option id="com.arm.tool.assembler.v6.base.option.flags.157103777" name="Other flags" superClass="com.arm.tool.assembler.v6.base.option.flags" value="-x assembler-with-cpp" valueType="string"/>
-								<inputType id="com.arm.tool.assembler.v6.base.input.854559008" superClass="com.arm.tool.assembler.v6.base.input"/>
-							</tool>
-							<tool id="com.arm.tool.c.linker.v6.base.var.arm_compiler_6-6.22.1983331083" name="ARM Linker 6.22" superClass="com.arm.tool.c.linker.v6.base.var.arm_compiler_6-6.22">
-								<option id="com.arm.tool.c.linker.option.cpu.884639814" name="Target CPU (--cpu)" superClass="com.arm.tool.c.linker.option.cpu" value="Cortex-M85" valueType="string"/>
-								<option id="com.arm.tool.c.linker.option.entry.14397873" name="Image entry point (--entry)" superClass="com.arm.tool.c.linker.option.entry" value="Reset_Handler" valueType="string"/>
-								<option id="com.arm.tool.c.linker.option.scatter.932933589" name="Scatter file (--scatter)" superClass="com.arm.tool.c.linker.option.scatter" value="${workspace_loc:/${ProjName}}/script/fsp.scat" valueType="string"/>
-								<option id="com.arm.tool.c.linker.option.redirectoutput.286068076" name="Redirect diagnostics output to file (--list)" superClass="com.arm.tool.c.linker.option.redirectoutput" value="${BuildArtifactFileBaseName}.log" valueType="string"/>
-								<option id="com.arm.tool.c.linker.option.imagemap.674556554" name="Generate image map (--map)" superClass="com.arm.tool.c.linker.option.imagemap" value="true" valueType="boolean"/>
-								<option id="com.arm.tool.linker.v6.option.suppress.389591977" name="Suppress (--diag_suppress)" superClass="com.arm.tool.linker.v6.option.suppress" value="6319,6314" valueType="string"/>
-								<option id="com.arm.tool.c.linker.option.flags.762811314" name="Other flags" superClass="com.arm.tool.c.linker.option.flags" value="--lto --library_type=standardlib --no_startup --via=&quot;${workspace_loc:/${ProjName}/script}/ac6/fsp_keep.via&quot;" valueType="string"/>
-							</tool>
-							<tool id="com.arm.tool.librarian.v6.base.var.arm_compiler_6-6.22.423088223" name="ARM Librarian 6.22" superClass="com.arm.tool.librarian.v6.base.var.arm_compiler_6-6.22"/>
-						</toolChain>
+						<toolChain id="com.arm.toolchain.v6.base.var.arm_compiler_6-6.22.143118599" name="ARM Compiler 6.22"/>
 					</folderInfo>
 					<folderInfo id="com.arm.eclipse.build.config.v6.exe.debug.base.var.arm_compiler_6-6.21.208855860./ra/aws" name="aws" resourcePath="ra/aws">
-						<toolChain id="com.arm.toolchain.v6.base.var.arm_compiler_6-6.22.1333158774" name="ARM Compiler 6.22" superClass="com.arm.toolchain.v6.base.var.arm_compiler_6-6.22">
-							<tool id="com.arm.tool.c.compiler.v6.base.var.arm_compiler_6-6.22.65128711" name="ARM C Compiler 6.22" superClass="com.arm.tool.c.compiler.v6.base.var.arm_compiler_6-6.22">
-								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.arm.tool.c.compiler.v6.base.option.incpath.555595727" name="Include path (-I)" superClass="com.arm.tool.c.compiler.v6.base.option.incpath" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;.&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/inc/api}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/inc/instances}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/src/rm_freertos_port}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/aws/FreeRTOS/FreeRTOS/Source/include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/arm/CMSIS_5/CMSIS/Core/Include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_gen}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_cfg/fsp_cfg/bsp}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_cfg/fsp_cfg}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_cfg/aws}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/tes/dave2d/inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/lvgl}&quot;"/>
-								</option>
-								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.arm.tool.c.compiler.v6.base.option.defmac.1409039909" name="Define macro (-D)" superClass="com.arm.tool.c.compiler.v6.base.option.defmac" valueType="definedSymbols">
-									<listOptionValue builtIn="false" value="_RENESAS_RA_"/>
-									<listOptionValue builtIn="false" value="_RA_CORE=CM85"/>
-									<listOptionValue builtIn="false" value="_RA_ORDINAL=1"/>
-								</option>
-								<option defaultValue="com.arm.tool.c.compiler.v6.base.option.optlevel.min" id="com.arm.tool.c.compiler.v6.base.option.optlevel.561826444" name="Optimization level" superClass="com.arm.tool.c.compiler.v6.base.option.optlevel" value="com.arm.tool.c.compiler.v6.base.option.optlevel.max" valueType="enumerated"/>
-								<option defaultValue="com.arm.tool.c.compiler.v6.base.options.debug.level.std" id="com.arm.tool.c.compiler.v6.base.options.debug.level.69060696" name="Debug Level" superClass="com.arm.tool.c.compiler.v6.base.options.debug.level" valueType="enumerated"/>
-								<option id="com.arm.tool.c.compiler.v6.base.option.target.82310583" name="Target (--target)" superClass="com.arm.tool.c.compiler.v6.base.option.target" value="arm-arm-none-eabi" valueType="string"/>
-								<option id="com.arm.tool.c.compiler.v6.base.option.cpu.422024261" name="CPU (-mcpu)" superClass="com.arm.tool.c.compiler.v6.base.option.cpu" value="cortex-m85" valueType="string"/>
-								<option id="com.arm.tool.c.compiler.v6.base.option.warnall.1453761648" name="All Warnings (-Wall)" superClass="com.arm.tool.c.compiler.v6.base.option.warnall" value="false" valueType="boolean"/>
-								<option id="com.arm.tool.c.compiler.v6.base.option.flags.1137621515" name="Other flags" superClass="com.arm.tool.c.compiler.v6.base.option.flags" value="-Omax -flto -Wno-int-conversion -Wno-deprecated-non-prototype -Wno-implicit-function-declaration -Wno-unused-but-set-variable -Wfloat-equal -Waggregate-return -Wshadow -Wpointer-arith -Wconversion -Wmissing-declarations -Wuninitialized -Wunused -Wno-license-management -Wextra -Wno-implicit-int-conversion -Wno-sign-conversion -mfloat-abi=hard -I&quot;/home/kisvegabor/projects/lvgl/e2_studio-workspace/lv_port_renesas_ek-ra8d1/ra/arm/CMSIS_5/CMSIS/DSP/Include/&quot; -I&quot;/home/kisvegabor/projects/lvgl/e2_studio-workspace/lv_port_renesas_ek-ra8d1/ra/arm/CMSIS_5/CMSIS/DSP/PrivateInclude/&quot;" valueType="string"/>
-								<option id="com.arm.tool.c.compiler.v6.base.option.suppresswarn.409544456" name="Suppress all warnings (-w)" superClass="com.arm.tool.c.compiler.v6.base.option.suppresswarn" value="true" valueType="boolean"/>
-								<option id="com.arm.tool.c.compiler.v6.base.option.vector.331216645" name="Vectorization (-fvectorize)" superClass="com.arm.tool.c.compiler.v6.base.option.vector" value="true" valueType="boolean"/>
-								<inputType id="com.arm.tool.c.compiler.v6.base.input.1967624799" superClass="com.arm.tool.c.compiler.v6.base.input"/>
-								<inputType id="com.arm.tool.cpp.compiler.v6.base.input.140179692" superClass="com.arm.tool.cpp.compiler.v6.base.input"/>
-							</tool>
-							<tool id="com.arm.tool.cpp.compiler.v6.base.var.arm_compiler_6-6.22.1249756177" name="ARM C++ Compiler 6.22" superClass="com.arm.tool.cpp.compiler.v6.base.var.arm_compiler_6-6.22">
-								<option defaultValue="com.arm.tool.c.compiler.v6.base.option.optlevel.min" id="com.arm.tool.c.compiler.v6.base.option.optlevel.5893409" name="Optimization level" superClass="com.arm.tool.c.compiler.v6.base.option.optlevel" valueType="enumerated"/>
-								<option defaultValue="com.arm.tool.c.compiler.v6.base.options.debug.level.std" id="com.arm.tool.c.compiler.v6.base.options.debug.level.226274942" name="Debug Level" superClass="com.arm.tool.c.compiler.v6.base.options.debug.level" valueType="enumerated"/>
-								<option id="com.arm.tool.c.compiler.v6.base.option.suppresswarn.1705779200" name="Suppress all warnings (-w)" superClass="com.arm.tool.c.compiler.v6.base.option.suppresswarn" value="true" valueType="boolean"/>
-								<inputType id="com.arm.tool.c.compiler.v6.base.input.413457553" superClass="com.arm.tool.c.compiler.v6.base.input"/>
-								<inputType id="com.arm.tool.cpp.compiler.v6.base.input.305127235" superClass="com.arm.tool.cpp.compiler.v6.base.input"/>
-							</tool>
-							<tool id="com.arm.tool.assembler.v6.base.var.arm_compiler_6-6.22.209966382" name="ARM Assembler 6.22" superClass="com.arm.tool.assembler.v6.base.var.arm_compiler_6-6.22">
-								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.arm.tool.assembler.v6.base.option.incpath.486518632" name="Include path (-I)" superClass="com.arm.tool.assembler.v6.base.option.incpath" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;.&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/inc/api}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/inc/instances}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/src/rm_freertos_port}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/aws/FreeRTOS/FreeRTOS/Source/include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/arm/CMSIS_5/CMSIS/Core/Include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_gen}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_cfg/fsp_cfg/bsp}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_cfg/fsp_cfg}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_cfg/aws}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/tes/dave2d/inc}&quot;"/>
-								</option>
-								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.arm.tool.assembler.v6.base.option.defmac.1053322673" name="Define macro (-D)" superClass="com.arm.tool.assembler.v6.base.option.defmac" valueType="definedSymbols">
-									<listOptionValue builtIn="false" value="_RENESAS_RA_"/>
-									<listOptionValue builtIn="false" value="_RA_CORE=CM85"/>
-									<listOptionValue builtIn="false" value="_RA_ORDINAL=1"/>
-								</option>
-								<option defaultValue="com.arm.tool.assembler.v6.base.options.debug.level.std" id="com.arm.tool.assembler.v6.base.options.debug.level.1263594702" name="Debug Level" superClass="com.arm.tool.assembler.v6.base.options.debug.level" valueType="enumerated"/>
-								<option id="com.arm.tool.assembler.v6.base.option.target.158247668" name="Target (--target)" superClass="com.arm.tool.assembler.v6.base.option.target" value="arm-arm-none-eabi" valueType="string"/>
-								<option id="com.arm.tool.assembler.v6.base.option.cpu.461732593" name="CPU (-mcpu)" superClass="com.arm.tool.assembler.v6.base.option.cpu" value="Cortex-M85" valueType="string"/>
-								<option id="com.arm.tool.assembler.v6.base.option.warnall.721665545" name="All Warnings (-Wall)" superClass="com.arm.tool.assembler.v6.base.option.warnall" value="true" valueType="boolean"/>
-								<option id="com.arm.tool.assembler.v6.base.option.flags.1283689668" name="Other flags" superClass="com.arm.tool.assembler.v6.base.option.flags" value="-x assembler-with-cpp" valueType="string"/>
-								<inputType id="com.arm.tool.assembler.v6.base.input.717066102" superClass="com.arm.tool.assembler.v6.base.input"/>
-							</tool>
-							<tool id="com.arm.tool.c.linker.v6.base.var.arm_compiler_6-6.22.515910706" name="ARM Linker 6.22" superClass="com.arm.tool.c.linker.v6.base.var.arm_compiler_6-6.22">
-								<option id="com.arm.tool.c.linker.option.cpu.1570382602" name="Target CPU (--cpu)" superClass="com.arm.tool.c.linker.option.cpu" value="Cortex-M85" valueType="string"/>
-								<option id="com.arm.tool.c.linker.option.entry.2056942921" name="Image entry point (--entry)" superClass="com.arm.tool.c.linker.option.entry" value="Reset_Handler" valueType="string"/>
-								<option id="com.arm.tool.c.linker.option.scatter.630484356" name="Scatter file (--scatter)" superClass="com.arm.tool.c.linker.option.scatter" value="${workspace_loc:/${ProjName}}/script/fsp.scat" valueType="string"/>
-								<option id="com.arm.tool.c.linker.option.redirectoutput.1684302135" name="Redirect diagnostics output to file (--list)" superClass="com.arm.tool.c.linker.option.redirectoutput" value="${BuildArtifactFileBaseName}.log" valueType="string"/>
-								<option id="com.arm.tool.c.linker.option.imagemap.436413402" name="Generate image map (--map)" superClass="com.arm.tool.c.linker.option.imagemap" value="true" valueType="boolean"/>
-								<option id="com.arm.tool.linker.v6.option.suppress.1342928377" name="Suppress (--diag_suppress)" superClass="com.arm.tool.linker.v6.option.suppress" value="6319,6314" valueType="string"/>
-								<option id="com.arm.tool.c.linker.option.flags.512921778" name="Other flags" superClass="com.arm.tool.c.linker.option.flags" value="--lto --library_type=standardlib --no_startup --via=&quot;${workspace_loc:/${ProjName}/script}/ac6/fsp_keep.via&quot;" valueType="string"/>
-							</tool>
-							<tool id="com.arm.tool.librarian.v6.base.var.arm_compiler_6-6.22.1185253529" name="ARM Librarian 6.22" superClass="com.arm.tool.librarian.v6.base.var.arm_compiler_6-6.22"/>
-						</toolChain>
+						<toolChain id="com.arm.toolchain.v6.base.var.arm_compiler_6-6.22.1333158774" name="ARM Compiler 6.22"/>
 					</folderInfo>
 					<folderInfo id="com.arm.eclipse.build.config.v6.exe.debug.base.var.arm_compiler_6-6.21.208855860./ra/arm" name="arm" resourcePath="ra/arm">
-						<toolChain id="com.arm.toolchain.v6.base.var.arm_compiler_6-6.22.67756309" name="ARM Compiler 6.22" superClass="com.arm.toolchain.v6.base.var.arm_compiler_6-6.22">
-							<tool id="com.arm.tool.c.compiler.v6.base.var.arm_compiler_6-6.22.1177172781" name="ARM C Compiler 6.22" superClass="com.arm.tool.c.compiler.v6.base.var.arm_compiler_6-6.22">
-								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.arm.tool.c.compiler.v6.base.option.incpath.1215143036" name="Include path (-I)" superClass="com.arm.tool.c.compiler.v6.base.option.incpath" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;.&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/inc/api}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/inc/instances}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/src/rm_freertos_port}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/aws/FreeRTOS/FreeRTOS/Source/include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/arm/CMSIS_5/CMSIS/Core/Include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_gen}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_cfg/fsp_cfg/bsp}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_cfg/fsp_cfg}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_cfg/aws}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/tes/dave2d/inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/lvgl}&quot;"/>
-								</option>
-								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.arm.tool.c.compiler.v6.base.option.defmac.1874862345" name="Define macro (-D)" superClass="com.arm.tool.c.compiler.v6.base.option.defmac" valueType="definedSymbols">
-									<listOptionValue builtIn="false" value="_RENESAS_RA_"/>
-									<listOptionValue builtIn="false" value="_RA_CORE=CM85"/>
-									<listOptionValue builtIn="false" value="_RA_ORDINAL=1"/>
-								</option>
-								<option defaultValue="com.arm.tool.c.compiler.v6.base.option.optlevel.min" id="com.arm.tool.c.compiler.v6.base.option.optlevel.949422551" name="Optimization level" superClass="com.arm.tool.c.compiler.v6.base.option.optlevel" value="com.arm.tool.c.compiler.v6.base.option.optlevel.max" valueType="enumerated"/>
-								<option defaultValue="com.arm.tool.c.compiler.v6.base.options.debug.level.std" id="com.arm.tool.c.compiler.v6.base.options.debug.level.1545272520" name="Debug Level" superClass="com.arm.tool.c.compiler.v6.base.options.debug.level" valueType="enumerated"/>
-								<option id="com.arm.tool.c.compiler.v6.base.option.target.1071886405" name="Target (--target)" superClass="com.arm.tool.c.compiler.v6.base.option.target" value="arm-arm-none-eabi" valueType="string"/>
-								<option id="com.arm.tool.c.compiler.v6.base.option.cpu.1116408387" name="CPU (-mcpu)" superClass="com.arm.tool.c.compiler.v6.base.option.cpu" value="cortex-m85" valueType="string"/>
-								<option id="com.arm.tool.c.compiler.v6.base.option.warnall.1514334470" name="All Warnings (-Wall)" superClass="com.arm.tool.c.compiler.v6.base.option.warnall" value="false" valueType="boolean"/>
-								<option id="com.arm.tool.c.compiler.v6.base.option.flags.1046083791" name="Other flags" superClass="com.arm.tool.c.compiler.v6.base.option.flags" value="-Omax -flto -Wno-int-conversion -Wno-deprecated-non-prototype -Wno-implicit-function-declaration -Wno-unused-but-set-variable -Wfloat-equal -Waggregate-return -Wshadow -Wpointer-arith -Wconversion -Wmissing-declarations -Wuninitialized -Wunused -Wno-license-management -Wextra -Wno-implicit-int-conversion -Wno-sign-conversion -mfloat-abi=hard -I&quot;/home/kisvegabor/projects/lvgl/e2_studio-workspace/lv_port_renesas_ek-ra8d1/ra/arm/CMSIS_5/CMSIS/DSP/Include/&quot; -I&quot;/home/kisvegabor/projects/lvgl/e2_studio-workspace/lv_port_renesas_ek-ra8d1/ra/arm/CMSIS_5/CMSIS/DSP/PrivateInclude/&quot;" valueType="string"/>
-								<option id="com.arm.tool.c.compiler.v6.base.option.suppresswarn.1537344051" name="Suppress all warnings (-w)" superClass="com.arm.tool.c.compiler.v6.base.option.suppresswarn" value="true" valueType="boolean"/>
-								<option id="com.arm.tool.c.compiler.v6.base.option.vector.1321619503" name="Vectorization (-fvectorize)" superClass="com.arm.tool.c.compiler.v6.base.option.vector" value="true" valueType="boolean"/>
-								<inputType id="com.arm.tool.c.compiler.v6.base.input.1271378389" superClass="com.arm.tool.c.compiler.v6.base.input"/>
-								<inputType id="com.arm.tool.cpp.compiler.v6.base.input.1899944098" superClass="com.arm.tool.cpp.compiler.v6.base.input"/>
-							</tool>
-							<tool id="com.arm.tool.cpp.compiler.v6.base.var.arm_compiler_6-6.22.782676283" name="ARM C++ Compiler 6.22" superClass="com.arm.tool.cpp.compiler.v6.base.var.arm_compiler_6-6.22">
-								<option defaultValue="com.arm.tool.c.compiler.v6.base.option.optlevel.min" id="com.arm.tool.c.compiler.v6.base.option.optlevel.846599220" name="Optimization level" superClass="com.arm.tool.c.compiler.v6.base.option.optlevel" valueType="enumerated"/>
-								<option defaultValue="com.arm.tool.c.compiler.v6.base.options.debug.level.std" id="com.arm.tool.c.compiler.v6.base.options.debug.level.1269545223" name="Debug Level" superClass="com.arm.tool.c.compiler.v6.base.options.debug.level" valueType="enumerated"/>
-								<option id="com.arm.tool.c.compiler.v6.base.option.suppresswarn.1272991707" name="Suppress all warnings (-w)" superClass="com.arm.tool.c.compiler.v6.base.option.suppresswarn" value="true" valueType="boolean"/>
-								<inputType id="com.arm.tool.c.compiler.v6.base.input.1896276052" superClass="com.arm.tool.c.compiler.v6.base.input"/>
-								<inputType id="com.arm.tool.cpp.compiler.v6.base.input.1709790683" superClass="com.arm.tool.cpp.compiler.v6.base.input"/>
-							</tool>
-							<tool id="com.arm.tool.assembler.v6.base.var.arm_compiler_6-6.22.1663137936" name="ARM Assembler 6.22" superClass="com.arm.tool.assembler.v6.base.var.arm_compiler_6-6.22">
-								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.arm.tool.assembler.v6.base.option.incpath.708394226" name="Include path (-I)" superClass="com.arm.tool.assembler.v6.base.option.incpath" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;.&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/inc/api}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/inc/instances}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/src/rm_freertos_port}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/aws/FreeRTOS/FreeRTOS/Source/include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/arm/CMSIS_5/CMSIS/Core/Include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_gen}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_cfg/fsp_cfg/bsp}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_cfg/fsp_cfg}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_cfg/aws}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/tes/dave2d/inc}&quot;"/>
-								</option>
-								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.arm.tool.assembler.v6.base.option.defmac.624215342" name="Define macro (-D)" superClass="com.arm.tool.assembler.v6.base.option.defmac" valueType="definedSymbols">
-									<listOptionValue builtIn="false" value="_RENESAS_RA_"/>
-									<listOptionValue builtIn="false" value="_RA_CORE=CM85"/>
-									<listOptionValue builtIn="false" value="_RA_ORDINAL=1"/>
-								</option>
-								<option defaultValue="com.arm.tool.assembler.v6.base.options.debug.level.std" id="com.arm.tool.assembler.v6.base.options.debug.level.396728630" name="Debug Level" superClass="com.arm.tool.assembler.v6.base.options.debug.level" valueType="enumerated"/>
-								<option id="com.arm.tool.assembler.v6.base.option.target.1132551509" name="Target (--target)" superClass="com.arm.tool.assembler.v6.base.option.target" value="arm-arm-none-eabi" valueType="string"/>
-								<option id="com.arm.tool.assembler.v6.base.option.cpu.623527309" name="CPU (-mcpu)" superClass="com.arm.tool.assembler.v6.base.option.cpu" value="Cortex-M85" valueType="string"/>
-								<option id="com.arm.tool.assembler.v6.base.option.warnall.591642044" name="All Warnings (-Wall)" superClass="com.arm.tool.assembler.v6.base.option.warnall" value="true" valueType="boolean"/>
-								<option id="com.arm.tool.assembler.v6.base.option.flags.1083936045" name="Other flags" superClass="com.arm.tool.assembler.v6.base.option.flags" value="-x assembler-with-cpp" valueType="string"/>
-								<inputType id="com.arm.tool.assembler.v6.base.input.43830982" superClass="com.arm.tool.assembler.v6.base.input"/>
-							</tool>
-							<tool id="com.arm.tool.c.linker.v6.base.var.arm_compiler_6-6.22.165451584" name="ARM Linker 6.22" superClass="com.arm.tool.c.linker.v6.base.var.arm_compiler_6-6.22">
-								<option id="com.arm.tool.c.linker.option.cpu.1501296544" name="Target CPU (--cpu)" superClass="com.arm.tool.c.linker.option.cpu" value="Cortex-M85" valueType="string"/>
-								<option id="com.arm.tool.c.linker.option.entry.586314813" name="Image entry point (--entry)" superClass="com.arm.tool.c.linker.option.entry" value="Reset_Handler" valueType="string"/>
-								<option id="com.arm.tool.c.linker.option.scatter.1261598453" name="Scatter file (--scatter)" superClass="com.arm.tool.c.linker.option.scatter" value="${workspace_loc:/${ProjName}}/script/fsp.scat" valueType="string"/>
-								<option id="com.arm.tool.c.linker.option.redirectoutput.515428685" name="Redirect diagnostics output to file (--list)" superClass="com.arm.tool.c.linker.option.redirectoutput" value="${BuildArtifactFileBaseName}.log" valueType="string"/>
-								<option id="com.arm.tool.c.linker.option.imagemap.1316112842" name="Generate image map (--map)" superClass="com.arm.tool.c.linker.option.imagemap" value="true" valueType="boolean"/>
-								<option id="com.arm.tool.linker.v6.option.suppress.1839063503" name="Suppress (--diag_suppress)" superClass="com.arm.tool.linker.v6.option.suppress" value="6319,6314" valueType="string"/>
-								<option id="com.arm.tool.c.linker.option.flags.862809037" name="Other flags" superClass="com.arm.tool.c.linker.option.flags" value="--lto --library_type=standardlib --no_startup --via=&quot;${workspace_loc:/${ProjName}/script}/ac6/fsp_keep.via&quot;" valueType="string"/>
-							</tool>
-							<tool id="com.arm.tool.librarian.v6.base.var.arm_compiler_6-6.22.2126702561" name="ARM Librarian 6.22" superClass="com.arm.tool.librarian.v6.base.var.arm_compiler_6-6.22"/>
-						</toolChain>
+						<toolChain id="com.arm.toolchain.v6.base.var.arm_compiler_6-6.22.67756309" name="ARM Compiler 6.22"/>
 					</folderInfo>
 					<sourceEntries>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="ra"/>
@@ -1891,177 +1912,25 @@
 				<externalSettings/>
 				<extensions>
 					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
-					<extension id="com.arm.eclipse.builder.armcc.error" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
 				</extensions>
 			</storageModule>
 			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-				<configuration artifactExtension="axf" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="clean" description="" id="com.arm.eclipse.build.config.v6.exe.release.base.var.arm_compiler_6-6.21.376080084" name="Release" parent="com.arm.eclipse.build.config.v6.exe.release.base.var.arm_compiler_6-6.21">
+				<configuration artifactExtension="axf" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="clean" description="" id="com.arm.eclipse.build.config.v6.exe.release.base.var.arm_compiler_6-6.21.376080084" name="Release">
 					<folderInfo id="com.arm.eclipse.build.config.v6.exe.release.base.var.arm_compiler_6-6.21.376080084." name="/" resourcePath="">
-						<toolChain id="com.arm.toolchain.v6.exe.release.base.var.arm_compiler_6-6.21.1026292862" name="ARM Compiler 6.21" superClass="com.arm.toolchain.v6.exe.release.base.var.arm_compiler_6-6.21">
+						<toolChain id="com.arm.toolchain.v6.exe.release.base.var.arm_compiler_6-6.21.1026292862" name="ARM Compiler 6.21">
 							<targetPlatform id="com.arm.eclipse.build.config.v6.exe.release.base.var.arm_compiler_6-6.21.376080084..2093035792" name=""/>
 							<builder buildPath="${workspace_loc:/lv_ek_ra8d1}/Release" id="com.arm.toolchain.v6.builder.52909966" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="com.arm.toolchain.v6.builder"/>
-							<tool commandLinePattern="${COMMAND} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} -x c -std=c99 ${INPUTS} ${EXTRA_FLAGS}" id="com.arm.tool.c.compiler.v6.base.var.arm_compiler_6-6.21.1877524227" name="ARM C Compiler 6.21" superClass="com.arm.tool.c.compiler.v6.base.var.arm_compiler_6-6.21">
-								<option defaultValue="com.arm.tool.c.compiler.v6.base.option.optlevel.high" id="com.arm.tool.c.compiler.v6.base.option.optlevel.1491050220" name="Optimization level" superClass="com.arm.tool.c.compiler.v6.base.option.optlevel" useByScannerDiscovery="false" valueType="enumerated"/>
-								<option defaultValue="com.arm.tool.c.compiler.v6.base.options.debug.level.none" id="com.arm.tool.c.compiler.v6.base.options.debug.level.884328630" name="Debug Level" superClass="com.arm.tool.c.compiler.v6.base.options.debug.level" useByScannerDiscovery="false" valueType="enumerated"/>
-								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.arm.tool.c.compiler.v6.base.option.defmac.689403281" name="Define macro (-D)" superClass="com.arm.tool.c.compiler.v6.base.option.defmac" useByScannerDiscovery="false" valueType="definedSymbols">
-									<listOptionValue builtIn="false" value="_RENESAS_RA_"/>
-									<listOptionValue builtIn="false" value="_RA_CORE=CM85"/>
-									<listOptionValue builtIn="false" value="_RA_ORDINAL=1"/>
-								</option>
-								<option id="com.arm.tool.c.compiler.v6.base.option.cpu.41623037" name="CPU (-mcpu)" superClass="com.arm.tool.c.compiler.v6.base.option.cpu" useByScannerDiscovery="true" value="cortex-m85" valueType="string"/>
-								<option id="com.arm.tool.c.compiler.v6.base.option.target.1108279914" name="Target (--target)" superClass="com.arm.tool.c.compiler.v6.base.option.target" useByScannerDiscovery="true" value="arm-arm-none-eabi" valueType="string"/>
-								<option id="com.arm.tool.c.compiler.v6.base.option.flags.1406816963" name="Other flags" superClass="com.arm.tool.c.compiler.v6.base.option.flags" useByScannerDiscovery="true" value="-Wno-int-conversion -Wno-deprecated-non-prototype -Wno-implicit-function-declaration -Wno-unused-but-set-variable -Wfloat-equal -Waggregate-return -Wshadow -Wpointer-arith -Wconversion -Wmissing-declarations -Wuninitialized -Wunused -Wno-license-management -Wextra -mfloat-abi=hard" valueType="string"/>
-								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.arm.tool.c.compiler.v6.base.option.incpath.256599425" name="Include path (-I)" superClass="com.arm.tool.c.compiler.v6.base.option.incpath" useByScannerDiscovery="false" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;.&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/inc/api}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/inc/instances}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/src/rm_freertos_port}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/aws/FreeRTOS/FreeRTOS/Source/include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/arm/CMSIS_5/CMSIS/Core/Include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_gen}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_cfg/fsp_cfg/bsp}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_cfg/fsp_cfg}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_cfg/aws}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/tes/dave2d/inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/arm/CMSIS_5/CMSIS/DSP/PrivateInclude}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/arm/CMSIS_5/CMSIS/DSP/Include}&quot;"/>
-								</option>
-								<option id="com.arm.tool.c.compiler.v6.base.option.warnall.1971310666" name="All Warnings (-Wall)" superClass="com.arm.tool.c.compiler.v6.base.option.warnall" useByScannerDiscovery="false" value="true" valueType="boolean"/>
-								<option id="com.arm.tool.c.compiler.v6.base.option.optfor.1531879449" name="Optimize for" superClass="com.arm.tool.c.compiler.v6.base.option.optfor" useByScannerDiscovery="false" value="com.arm.tool.c.compiler.v6.base.option.optfor.size" valueType="enumerated"/>
-								<inputType id="com.arm.tool.c.compiler.v6.base.input.699904552" superClass="com.arm.tool.c.compiler.v6.base.input"/>
-								<inputType id="com.arm.tool.cpp.compiler.v6.base.input.1093230620" superClass="com.arm.tool.cpp.compiler.v6.base.input"/>
-							</tool>
-							<tool id="com.arm.tool.cpp.compiler.v6.base.var.arm_compiler_6-6.21.593970091" name="ARM C++ Compiler 6.21" superClass="com.arm.tool.cpp.compiler.v6.base.var.arm_compiler_6-6.21">
-								<option defaultValue="com.arm.tool.c.compiler.v6.base.option.optlevel.high" id="com.arm.tool.c.compiler.v6.base.option.optlevel.2086726600" name="Optimization level" superClass="com.arm.tool.c.compiler.v6.base.option.optlevel" valueType="enumerated"/>
-								<option defaultValue="com.arm.tool.c.compiler.v6.base.options.debug.level.none" id="com.arm.tool.c.compiler.v6.base.options.debug.level.420287047" name="Debug Level" superClass="com.arm.tool.c.compiler.v6.base.options.debug.level" valueType="enumerated"/>
-								<option id="com.arm.tool.c.compiler.v6.base.option.cpu.2068787735" name="CPU (-mcpu)" superClass="com.arm.tool.c.compiler.v6.base.option.cpu" value="cortex-m85" valueType="string"/>
-								<option id="com.arm.tool.c.compiler.v6.base.option.target.409199645" name="Target (--target)" superClass="com.arm.tool.c.compiler.v6.base.option.target" value="arm-arm-none-eabi" valueType="string"/>
-								<option id="com.arm.tool.c.compiler.v6.base.option.flags.397907578" name="Other flags" superClass="com.arm.tool.c.compiler.v6.base.option.flags" value="-Wno-int-conversion -Wno-deprecated-non-prototype -Wno-implicit-function-declaration -Wno-unused-but-set-variable -Wfloat-equal -Waggregate-return -Wshadow -Wpointer-arith -Wconversion -Wmissing-declarations -Wuninitialized -Wunused -Wno-license-management -Wextra -mfloat-abi=hard" valueType="string"/>
-								<option id="com.arm.tool.c.compiler.v6.base.option.warnall.908844803" name="All Warnings (-Wall)" superClass="com.arm.tool.c.compiler.v6.base.option.warnall" value="true" valueType="boolean"/>
-								<option id="com.arm.tool.c.compiler.v6.base.option.optfor.759705164" name="Optimize for" superClass="com.arm.tool.c.compiler.v6.base.option.optfor" value="com.arm.tool.c.compiler.v6.base.option.optfor.size" valueType="enumerated"/>
-								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.arm.tool.c.compiler.v6.base.option.incpath.1640174463" name="Include path (-I)" superClass="com.arm.tool.c.compiler.v6.base.option.incpath" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;.&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/inc/api}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/inc/instances}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/src/rm_freertos_port}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/aws/FreeRTOS/FreeRTOS/Source/include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/arm/CMSIS_5/CMSIS/Core/Include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/tes/dave2d/inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_cfg/fsp_cfg/bsp}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_gen}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_cfg/fsp_cfg}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_cfg/aws}&quot;"/>
-								</option>
-								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.arm.tool.c.compiler.v6.base.option.defmac.395434611" name="Define macro (-D)" superClass="com.arm.tool.c.compiler.v6.base.option.defmac" valueType="definedSymbols">
-									<listOptionValue builtIn="false" value="_RA_CORE=CM85"/>
-									<listOptionValue builtIn="false" value="_RA_ORDINAL=1"/>
-								</option>
-								<inputType id="com.arm.tool.c.compiler.v6.base.input.668534102" superClass="com.arm.tool.c.compiler.v6.base.input"/>
-								<inputType id="com.arm.tool.cpp.compiler.v6.base.input.981791370" superClass="com.arm.tool.cpp.compiler.v6.base.input"/>
-							</tool>
-							<tool command="armclang" id="com.arm.tool.assembler.v6.base.var.arm_compiler_6-6.21.636024002" name="ARM Assembler 6.21" superClass="com.arm.tool.assembler.v6.base.var.arm_compiler_6-6.21">
-								<option defaultValue="com.arm.tool.assembler.v6.base.options.debug.level.none" id="com.arm.tool.assembler.v6.base.options.debug.level.953943750" name="Debug Level" superClass="com.arm.tool.assembler.v6.base.options.debug.level" valueType="enumerated"/>
-								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.arm.tool.assembler.v6.base.option.defmac.516544156" name="Define macro (-D)" superClass="com.arm.tool.assembler.v6.base.option.defmac" valueType="definedSymbols">
-									<listOptionValue builtIn="false" value="_RENESAS_RA_"/>
-									<listOptionValue builtIn="false" value="_RA_CORE=CM85"/>
-									<listOptionValue builtIn="false" value="_RA_ORDINAL=1"/>
-								</option>
-								<option id="com.arm.tool.assembler.v6.base.option.cpu.593928702" name="CPU (-mcpu)" superClass="com.arm.tool.assembler.v6.base.option.cpu" value="Cortex-M85" valueType="string"/>
-								<option id="com.arm.tool.assembler.v6.base.option.target.1307588026" name="Target (--target)" superClass="com.arm.tool.assembler.v6.base.option.target" value="arm-arm-none-eabi" valueType="string"/>
-								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="com.arm.tool.assembler.v6.base.option.incpath.140866715" name="Include path (-I)" superClass="com.arm.tool.assembler.v6.base.option.incpath" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;.&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/inc/api}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/inc/instances}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/fsp/src/rm_freertos_port}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/aws/FreeRTOS/FreeRTOS/Source/include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/arm/CMSIS_5/CMSIS/Core/Include}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_gen}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_cfg/fsp_cfg/bsp}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_cfg/fsp_cfg}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra_cfg/aws}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/tes/dave2d/inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/arm/CMSIS_5/CMSIS/DSP/PrivateInclude}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ra/arm/CMSIS_5/CMSIS/DSP/Include}&quot;"/>
-								</option>
-								<option id="com.arm.tool.assembler.v6.base.option.warnall.1725568274" name="All Warnings (-Wall)" superClass="com.arm.tool.assembler.v6.base.option.warnall" value="true" valueType="boolean"/>
-								<option id="com.arm.tool.assembler.v6.base.option.flags.389484823" name="Other flags" superClass="com.arm.tool.assembler.v6.base.option.flags" value="-x assembler-with-cpp" valueType="string"/>
-								<inputType id="com.arm.tool.assembler.v6.base.input.1973568332" superClass="com.arm.tool.assembler.v6.base.input"/>
-							</tool>
-							<tool id="com.arm.tool.c.linker.v6.base.var.arm_compiler_6-6.21.10275059" name="ARM Linker 6.21" superClass="com.arm.tool.c.linker.v6.base.var.arm_compiler_6-6.21">
-								<option id="com.arm.tool.c.linker.option.entry.1664103366" name="Image entry point (--entry)" superClass="com.arm.tool.c.linker.option.entry" value="Reset_Handler" valueType="string"/>
-								<option id="com.arm.tool.c.linker.option.cpu.849935364" name="Target CPU (--cpu)" superClass="com.arm.tool.c.linker.option.cpu" value="Cortex-M85" valueType="string"/>
-								<option id="com.arm.tool.c.linker.option.scatter.813827955" name="Scatter file (--scatter)" superClass="com.arm.tool.c.linker.option.scatter" value="${workspace_loc:/${ProjName}}/script/fsp.scat" valueType="string"/>
-								<option id="com.arm.tool.c.linker.option.flags.721341123" name="Other flags" superClass="com.arm.tool.c.linker.option.flags" value="--library_type=microlib --no_startup --via=&quot;${workspace_loc:/${ProjName}/script}/ac6/fsp_keep.via&quot;" valueType="string"/>
-								<option id="com.arm.tool.linker.v6.option.suppress.2047340124" name="Suppress (--diag_suppress)" superClass="com.arm.tool.linker.v6.option.suppress" value="6319,6314" valueType="string"/>
-								<option id="com.arm.tool.c.linker.option.imagemap.892061976" name="Generate image map (--map)" superClass="com.arm.tool.c.linker.option.imagemap" value="true" valueType="boolean"/>
-								<option id="com.arm.tool.c.linker.option.redirectoutput.508747115" name="Redirect diagnostics output to file (--list)" superClass="com.arm.tool.c.linker.option.redirectoutput" value="${BuildArtifactFileBaseName}.log" valueType="string"/>
-							</tool>
-							<tool id="com.arm.tool.librarian.v6.base.var.arm_compiler_6-6.21.1036272084" name="ARM Librarian 6.21" superClass="com.arm.tool.librarian.v6.base.var.arm_compiler_6-6.21"/>
 						</toolChain>
 					</folderInfo>
 					<folderInfo id="com.arm.eclipse.build.config.v6.exe.release.base.var.arm_compiler_6-6.21.376080084./ra/tes" name="tes" resourcePath="ra/tes">
-						<toolChain id="com.arm.toolchain.v6.exe.release.base.var.arm_compiler_6-6.21.1750903551" name="ARM Compiler 6.21" superClass="com.arm.toolchain.v6.exe.release.base.var.arm_compiler_6-6.21" unusedChildren="">
-							<tool id="com.arm.tool.c.compiler.v6.base.var.arm_compiler_6-6.21.1799732924" name="ARM C Compiler 6.21" superClass="com.arm.tool.c.compiler.v6.base.var.arm_compiler_6-6.21.1877524227">
-								<option id="com.arm.tool.c.compiler.v6.base.option.suppresswarn.192875946" name="Suppress all warnings (-w)" superClass="com.arm.tool.c.compiler.v6.base.option.suppresswarn" value="true" valueType="boolean"/>
-								<inputType id="com.arm.tool.c.compiler.v6.base.input.612250752" superClass="com.arm.tool.c.compiler.v6.base.input"/>
-								<inputType id="com.arm.tool.cpp.compiler.v6.base.input.1665604410" superClass="com.arm.tool.cpp.compiler.v6.base.input"/>
-							</tool>
-							<tool id="com.arm.tool.cpp.compiler.v6.base.var.arm_compiler_6-6.21.204351082" name="ARM C++ Compiler 6.21" superClass="com.arm.tool.cpp.compiler.v6.base.var.arm_compiler_6-6.21.593970091">
-								<option id="com.arm.tool.c.compiler.v6.base.option.suppresswarn.651573266" name="Suppress all warnings (-w)" superClass="com.arm.tool.c.compiler.v6.base.option.suppresswarn" value="true" valueType="boolean"/>
-								<inputType id="com.arm.tool.c.compiler.v6.base.input.1631100274" superClass="com.arm.tool.c.compiler.v6.base.input"/>
-								<inputType id="com.arm.tool.cpp.compiler.v6.base.input.1748968384" superClass="com.arm.tool.cpp.compiler.v6.base.input"/>
-							</tool>
-							<tool id="com.arm.tool.assembler.v6.base.var.arm_compiler_6-6.21.1793098211" name="ARM Assembler 6.21" superClass="com.arm.tool.assembler.v6.base.var.arm_compiler_6-6.21.636024002">
-								<inputType id="com.arm.tool.assembler.v6.base.input.2135437450" superClass="com.arm.tool.assembler.v6.base.input"/>
-							</tool>
-							<tool id="com.arm.tool.c.linker.v6.base.var.arm_compiler_6-6.21.752471765" name="ARM Linker 6.21" superClass="com.arm.tool.c.linker.v6.base.var.arm_compiler_6-6.21.10275059"/>
-							<tool id="com.arm.tool.librarian.v6.base.var.arm_compiler_6-6.21.1325347924" name="ARM Librarian 6.21" superClass="com.arm.tool.librarian.v6.base.var.arm_compiler_6-6.21.1036272084"/>
-						</toolChain>
+						<toolChain id="com.arm.toolchain.v6.exe.release.base.var.arm_compiler_6-6.21.1750903551" name="ARM Compiler 6.21" unusedChildren=""/>
 					</folderInfo>
 					<folderInfo id="com.arm.eclipse.build.config.v6.exe.release.base.var.arm_compiler_6-6.21.376080084./ra/aws" name="aws" resourcePath="ra/aws">
-						<toolChain id="com.arm.toolchain.v6.exe.release.base.var.arm_compiler_6-6.21.371465772" name="ARM Compiler 6.21" superClass="com.arm.toolchain.v6.exe.release.base.var.arm_compiler_6-6.21" unusedChildren="">
-							<tool id="com.arm.tool.c.compiler.v6.base.var.arm_compiler_6-6.21.10892943" name="ARM C Compiler 6.21" superClass="com.arm.tool.c.compiler.v6.base.var.arm_compiler_6-6.21.1877524227">
-								<option id="com.arm.tool.c.compiler.v6.base.option.suppresswarn.2079721940" name="Suppress all warnings (-w)" superClass="com.arm.tool.c.compiler.v6.base.option.suppresswarn" value="true" valueType="boolean"/>
-								<inputType id="com.arm.tool.c.compiler.v6.base.input.349700956" superClass="com.arm.tool.c.compiler.v6.base.input"/>
-								<inputType id="com.arm.tool.cpp.compiler.v6.base.input.1780275334" superClass="com.arm.tool.cpp.compiler.v6.base.input"/>
-							</tool>
-							<tool id="com.arm.tool.cpp.compiler.v6.base.var.arm_compiler_6-6.21.2115466981" name="ARM C++ Compiler 6.21" superClass="com.arm.tool.cpp.compiler.v6.base.var.arm_compiler_6-6.21.593970091">
-								<option id="com.arm.tool.c.compiler.v6.base.option.suppresswarn.1617118539" name="Suppress all warnings (-w)" superClass="com.arm.tool.c.compiler.v6.base.option.suppresswarn" value="true" valueType="boolean"/>
-								<inputType id="com.arm.tool.c.compiler.v6.base.input.958957620" superClass="com.arm.tool.c.compiler.v6.base.input"/>
-								<inputType id="com.arm.tool.cpp.compiler.v6.base.input.1039020098" superClass="com.arm.tool.cpp.compiler.v6.base.input"/>
-							</tool>
-							<tool id="com.arm.tool.assembler.v6.base.var.arm_compiler_6-6.21.387215808" name="ARM Assembler 6.21" superClass="com.arm.tool.assembler.v6.base.var.arm_compiler_6-6.21.636024002">
-								<inputType id="com.arm.tool.assembler.v6.base.input.2030917701" superClass="com.arm.tool.assembler.v6.base.input"/>
-							</tool>
-							<tool id="com.arm.tool.c.linker.v6.base.var.arm_compiler_6-6.21.1710276239" name="ARM Linker 6.21" superClass="com.arm.tool.c.linker.v6.base.var.arm_compiler_6-6.21.10275059"/>
-							<tool id="com.arm.tool.librarian.v6.base.var.arm_compiler_6-6.21.1773161091" name="ARM Librarian 6.21" superClass="com.arm.tool.librarian.v6.base.var.arm_compiler_6-6.21.1036272084"/>
-						</toolChain>
+						<toolChain id="com.arm.toolchain.v6.exe.release.base.var.arm_compiler_6-6.21.371465772" name="ARM Compiler 6.21" unusedChildren=""/>
 					</folderInfo>
 					<folderInfo id="com.arm.eclipse.build.config.v6.exe.release.base.var.arm_compiler_6-6.21.376080084./ra/arm" name="arm" resourcePath="ra/arm">
-						<toolChain id="com.arm.toolchain.v6.exe.release.base.var.arm_compiler_6-6.21.2008891660" name="ARM Compiler 6.21" superClass="com.arm.toolchain.v6.exe.release.base.var.arm_compiler_6-6.21" unusedChildren="">
-							<tool id="com.arm.tool.c.compiler.v6.base.var.arm_compiler_6-6.21.253755528" name="ARM C Compiler 6.21" superClass="com.arm.tool.c.compiler.v6.base.var.arm_compiler_6-6.21.1877524227">
-								<option id="com.arm.tool.c.compiler.v6.base.option.suppresswarn.1019122524" name="Suppress all warnings (-w)" superClass="com.arm.tool.c.compiler.v6.base.option.suppresswarn" value="true" valueType="boolean"/>
-								<inputType id="com.arm.tool.c.compiler.v6.base.input.2028508772" superClass="com.arm.tool.c.compiler.v6.base.input"/>
-								<inputType id="com.arm.tool.cpp.compiler.v6.base.input.1227646344" superClass="com.arm.tool.cpp.compiler.v6.base.input"/>
-							</tool>
-							<tool id="com.arm.tool.cpp.compiler.v6.base.var.arm_compiler_6-6.21.647370640" name="ARM C++ Compiler 6.21" superClass="com.arm.tool.cpp.compiler.v6.base.var.arm_compiler_6-6.21.593970091">
-								<option id="com.arm.tool.c.compiler.v6.base.option.suppresswarn.241395903" name="Suppress all warnings (-w)" superClass="com.arm.tool.c.compiler.v6.base.option.suppresswarn" value="true" valueType="boolean"/>
-								<inputType id="com.arm.tool.c.compiler.v6.base.input.763407304" superClass="com.arm.tool.c.compiler.v6.base.input"/>
-								<inputType id="com.arm.tool.cpp.compiler.v6.base.input.2110948978" superClass="com.arm.tool.cpp.compiler.v6.base.input"/>
-							</tool>
-							<tool id="com.arm.tool.assembler.v6.base.var.arm_compiler_6-6.21.1944819690" name="ARM Assembler 6.21" superClass="com.arm.tool.assembler.v6.base.var.arm_compiler_6-6.21.636024002">
-								<inputType id="com.arm.tool.assembler.v6.base.input.2040529318" superClass="com.arm.tool.assembler.v6.base.input"/>
-							</tool>
-							<tool id="com.arm.tool.c.linker.v6.base.var.arm_compiler_6-6.21.1345246288" name="ARM Linker 6.21" superClass="com.arm.tool.c.linker.v6.base.var.arm_compiler_6-6.21.10275059"/>
-							<tool id="com.arm.tool.librarian.v6.base.var.arm_compiler_6-6.21.1357942762" name="ARM Librarian 6.21" superClass="com.arm.tool.librarian.v6.base.var.arm_compiler_6-6.21.1036272084"/>
-						</toolChain>
+						<toolChain id="com.arm.toolchain.v6.exe.release.base.var.arm_compiler_6-6.21.2008891660" name="ARM Compiler 6.21" unusedChildren=""/>
 					</folderInfo>
 					<sourceEntries>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="ra"/>
@@ -2074,7 +1943,7 @@
 		</cconfiguration>
 	</storageModule>
 	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-		<project id="lv_ek_ra8d1.com.arm.eclipse.build.project.v6.exe.base.var.arm_compiler_6-6.21.1908526041" name="Executable" projectType="com.arm.eclipse.build.project.v6.exe.base.var.arm_compiler_6-6.21"/>
+		<project id="lv_ek_ra8d1.com.arm.eclipse.build.project.v6.exe.base.var.arm_compiler_6-6.21.1908526041" name="Executable"/>
 	</storageModule>
 	<storageModule moduleId="scannerConfiguration">
 		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
