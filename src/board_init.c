@@ -7,6 +7,7 @@
 
 #include "LVGL_thread.h"
 #include "touch_GT911.h"
+#include "ospi_b_ep.h"
 
 #define DIRECT_MODE 0
 
@@ -44,6 +45,9 @@ void board_init(void)
 {
     /* Need to initialise the Touch Controller before the LCD, as only a Single Reset line shared between them */
     touch_init();
+
+    /* Initialize OSPI to retrieve asserts from the OSPI */
+    ospi_b_init();
 
 #if DIRECT_MODE
     lv_display_t * disp = lv_renesas_glcdc_direct_create();
