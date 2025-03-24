@@ -1,4 +1,4 @@
-﻿/**
+/**
  * @file lv_conf.h
  * Configuration file for v9.3.0-dev
  */
@@ -296,7 +296,7 @@
 #endif
 
 /** Use Renesas Dave2D on RA  platforms. */
-#define LV_USE_DRAW_DAVE2D 0
+#define LV_USE_DRAW_DAVE2D 1
 
 /** Draw using cached SDL textures*/
 #define LV_USE_DRAW_SDL 0
@@ -534,9 +534,8 @@
  *  E.g. __attribute__((aligned(4)))*/
 #define LV_ATTRIBUTE_MEM_ALIGN
 
-/*Attribute to mark large constant arrays for example font's bitmaps*/
-/* Here we set all large const array in the graphical_assests section (in OSPI) */
-#define LV_ATTRIBUTE_LARGE_CONST BSP_PLACE_IN_SECTION(".graphical_assets")
+/** Attribute to mark large constant arrays, for example for font bitmaps */
+#define LV_ATTRIBUTE_LARGE_CONST
 
 /** Compiler prefix for a large array declaration in RAM */
 #define LV_ATTRIBUTE_LARGE_RAM_ARRAY
@@ -1312,7 +1311,7 @@
 #define LV_USE_DEMO_MUSIC 0
 #if LV_USE_DEMO_MUSIC
     #define LV_DEMO_MUSIC_SQUARE    0
-    #define LV_DEMO_MUSIC_LANDSCAPE 1
+    #define LV_DEMO_MUSIC_LANDSCAPE 0
     #define LV_DEMO_MUSIC_ROUND     0
     #define LV_DEMO_MUSIC_LARGE     0
     #define LV_DEMO_MUSIC_AUTO_PLAY 0
