@@ -9,7 +9,7 @@
 #include "touch_GT911.h"
 #include "ospi_b_ep.h"
 
-#define DIRECT_MODE 0
+#define DIRECT_MODE 1
 
 static void touch_init(void)
 {
